@@ -220,8 +220,9 @@ void main(List<String> arguments) async {
         print(' | - FAILED');
       }
     }
-    print('Waiting 5s for DDS to start.');
-    await Future.delayed(const Duration(seconds: 5));
+    final duration = Duration(seconds: 5 * (attempt + 1));
+    print('Waiting ${duration.inSeconds}s for DDS to start.');
+    await Future.delayed(duration);
   }
 
   final data = <String, dynamic>{};

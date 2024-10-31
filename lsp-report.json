@@ -3,13 +3,13 @@
     "vm.architectureBits": 64,
     "vm.hostCPU": "Apple M1 Pro",
     "vm.operatingSystem": "macos",
-    "vm.startTime": 1730288318674,
+    "vm.startTime": 1730288318675,
     "processMemoryUsage": {
       "type": "ProcessMemoryUsage",
       "root": {
         "name": "Process 35597",
         "description": "Resident set size",
-        "size": 384466944,
+        "size": 58261504,
         "children": [
           {
             "children": [
@@ -34,7 +34,7 @@
               {
                 "name": "Page Cache",
                 "description": "Cached heap regions",
-                "size": 1572864,
+                "size": 1048576,
                 "children": []
               },
               {
@@ -64,13 +64,13 @@
                   {
                     "name": "Used",
                     "description": "",
-                    "size": 10573472,
+                    "size": 10608944,
                     "children": []
                   },
                   {
                     "name": "Free",
                     "description": "",
-                    "size": 2009440,
+                    "size": 1973968,
                     "children": []
                   }
                 ]
@@ -97,18 +97,18 @@
               {
                 "name": "IsolateGroup main",
                 "description": "Dart heap capacity",
-                "size": 323796992,
+                "size": 325369856,
                 "children": [
                   {
                     "name": "Used",
                     "description": "",
-                    "size": 315805024,
+                    "size": 317170272,
                     "children": []
                   },
                   {
                     "name": "Free",
                     "description": "",
-                    "size": 7991968,
+                    "size": 8199584,
                     "children": []
                   }
                 ]
@@ -116,7 +116,7 @@
             ],
             "name": "Dart VM",
             "description": "",
-            "size": 369950720
+            "size": 370999296
           }
         ]
       }
@@ -128,16 +128,16 @@
         "name": "main",
         "memory": {
           "type": "MemoryUsage",
-          "heapUsage": 315663536,
-          "heapCapacity": 323796992,
+          "heapUsage": 316716704,
+          "heapCapacity": 325369856,
           "externalUsage": 21040
         },
         "allocationProfile": [
           {
-            "bytesCurrent": 101818512,
-            "instancesCurrent": 950345,
-            "accumulatedSize": 101818512,
-            "instancesAccumulated": 950345,
+            "bytesCurrent": 101865312,
+            "instancesCurrent": 950963,
+            "accumulatedSize": 101865312,
+            "instancesAccumulated": 950963,
             "className": "_List",
             "libraryName": "dart.core"
           },
@@ -150,10 +150,10 @@
             "libraryName": "dart.typed_data"
           },
           {
-            "bytesCurrent": 38661280,
-            "instancesCurrent": 370297,
-            "accumulatedSize": 38661280,
-            "instancesAccumulated": 370297,
+            "bytesCurrent": 38665696,
+            "instancesCurrent": 370417,
+            "accumulatedSize": 38665696,
+            "instancesAccumulated": 370417,
             "className": "_OneByteString",
             "libraryName": "dart.core"
           },
@@ -230,10 +230,10 @@
             "libraryName": "dart.core"
           },
           {
-            "bytesCurrent": 4589056,
-            "instancesCurrent": 71704,
-            "accumulatedSize": 4589056,
-            "instancesAccumulated": 71704,
+            "bytesCurrent": 4639168,
+            "instancesCurrent": 72487,
+            "accumulatedSize": 4639168,
+            "instancesAccumulated": 72487,
             "className": "_Closure",
             "libraryName": "dart.core"
           },
@@ -262,10 +262,10 @@
             "libraryName": null
           },
           {
-            "bytesCurrent": 3731792,
-            "instancesCurrent": 88803,
-            "accumulatedSize": 3731792,
-            "instancesAccumulated": 88803,
+            "bytesCurrent": 3777728,
+            "instancesCurrent": 89847,
+            "accumulatedSize": 3777728,
+            "instancesAccumulated": 89847,
             "className": "Context",
             "libraryName": null
           },
@@ -286,10 +286,10 @@
             "libraryName": "dart.core"
           },
           {
-            "bytesCurrent": 2970688,
-            "instancesCurrent": 92834,
-            "accumulatedSize": 2970688,
-            "instancesAccumulated": 92834,
+            "bytesCurrent": 2979040,
+            "instancesCurrent": 93095,
+            "accumulatedSize": 2979040,
+            "instancesAccumulated": 93095,
             "className": "_GrowableList",
             "libraryName": "dart.core"
           },
@@ -302,12 +302,20 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 2204992,
-            "instancesCurrent": 17222,
-            "accumulatedSize": 2204992,
-            "instancesAccumulated": 17222,
+            "bytesCurrent": 2238400,
+            "instancesCurrent": 17483,
+            "accumulatedSize": 2238400,
+            "instancesAccumulated": 17483,
             "className": "_SuspendState",
             "libraryName": "dart.async"
+          },
+          {
+            "bytesCurrent": 2104832,
+            "instancesCurrent": 32888,
+            "accumulatedSize": 2104832,
+            "instancesAccumulated": 32888,
+            "className": "_TypeParameter",
+            "libraryName": "dart.core"
           },
           {
             "bytesCurrent": 1999088,
@@ -358,14 +366,6 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 1268480,
-            "instancesCurrent": 19820,
-            "accumulatedSize": 1268480,
-            "instancesAccumulated": 19820,
-            "className": "_TypeParameter",
-            "libraryName": "dart.core"
-          },
-          {
             "bytesCurrent": 1234112,
             "instancesCurrent": 7012,
             "accumulatedSize": 1234112,
@@ -382,10 +382,10 @@
             "libraryName": "dart.typed_data"
           },
           {
-            "bytesCurrent": 832896,
-            "instancesCurrent": 17352,
-            "accumulatedSize": 832896,
-            "instancesAccumulated": 17352,
+            "bytesCurrent": 845424,
+            "instancesCurrent": 17613,
+            "accumulatedSize": 845424,
+            "instancesAccumulated": 17613,
             "className": "_Future",
             "libraryName": "dart.async"
           },
@@ -398,10 +398,10 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 727056,
-            "instancesCurrent": 15147,
-            "accumulatedSize": 727056,
-            "instancesAccumulated": 15147,
+            "bytesCurrent": 729360,
+            "instancesCurrent": 15195,
+            "accumulatedSize": 729360,
+            "instancesAccumulated": 15195,
             "className": "_Type",
             "libraryName": "dart.core"
           },
@@ -446,20 +446,20 @@
             "libraryName": "_fe_analyzer_shared.scanner.string_canonicalizer"
           },
           {
+            "bytesCurrent": 560480,
+            "instancesCurrent": 17515,
+            "accumulatedSize": 560480,
+            "instancesAccumulated": 17515,
+            "className": "_AsyncCallbackEntry",
+            "libraryName": "dart.async"
+          },
+          {
             "bytesCurrent": 558064,
             "instancesCurrent": 2683,
             "accumulatedSize": 558064,
             "instancesAccumulated": 2683,
             "className": "PropertyAccessorElementImpl_ImplicitGetter",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 552128,
-            "instancesCurrent": 17254,
-            "accumulatedSize": 552128,
-            "instancesAccumulated": 17254,
-            "className": "_AsyncCallbackEntry",
-            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 515072,
@@ -486,10 +486,10 @@
             "libraryName": "dart._compact_hash"
           },
           {
-            "bytesCurrent": 349200,
-            "instancesCurrent": 6472,
-            "accumulatedSize": 349200,
-            "instancesAccumulated": 6472,
+            "bytesCurrent": 351504,
+            "instancesCurrent": 6520,
+            "accumulatedSize": 351504,
+            "instancesAccumulated": 6520,
             "className": "TypeArguments",
             "libraryName": null
           },
@@ -558,10 +558,10 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 219920,
-            "instancesCurrent": 2094,
-            "accumulatedSize": 219920,
-            "instancesAccumulated": 2094,
+            "bytesCurrent": 221456,
+            "instancesCurrent": 2118,
+            "accumulatedSize": 221456,
+            "instancesAccumulated": 2118,
             "className": "_ImmutableList",
             "libraryName": "dart.core"
           },
@@ -1620,6 +1620,14 @@
             "instancesAccumulated": 7,
             "className": "MixinElementImpl",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1856,
+            "instancesCurrent": 58,
+            "accumulatedSize": 1856,
+            "instancesAccumulated": 58,
+            "className": "_SendPort",
+            "libraryName": "dart.isolate"
           },
           {
             "bytesCurrent": 1824,
@@ -1786,14 +1794,6 @@
             "instancesCurrent": 34,
             "accumulatedSize": 1088,
             "instancesAccumulated": 34,
-            "className": "_SendPort",
-            "libraryName": "dart.isolate"
-          },
-          {
-            "bytesCurrent": 1088,
-            "instancesCurrent": 34,
-            "accumulatedSize": 1088,
-            "instancesAccumulated": 34,
             "className": "Modifier",
             "libraryName": ""
           },
@@ -1829,16 +1829,16 @@
         "name": "EvictingFileByteStore._cacheCleanUpFunction",
         "memory": {
           "type": "MemoryUsage",
-          "heapUsage": 315735696,
-          "heapCapacity": 323796992,
+          "heapUsage": 316788112,
+          "heapCapacity": 325369856,
           "externalUsage": 21040
         },
         "allocationProfile": [
           {
-            "bytesCurrent": 101819424,
-            "instancesCurrent": 950355,
-            "accumulatedSize": 101819424,
-            "instancesAccumulated": 950355,
+            "bytesCurrent": 101866080,
+            "instancesCurrent": 950971,
+            "accumulatedSize": 101866080,
+            "instancesAccumulated": 950971,
             "className": "_List",
             "libraryName": "dart.core"
           },
@@ -1851,10 +1851,10 @@
             "libraryName": "dart.typed_data"
           },
           {
-            "bytesCurrent": 38661648,
-            "instancesCurrent": 370307,
-            "accumulatedSize": 38661648,
-            "instancesAccumulated": 370307,
+            "bytesCurrent": 38666064,
+            "instancesCurrent": 370427,
+            "accumulatedSize": 38666064,
+            "instancesAccumulated": 370427,
             "className": "_OneByteString",
             "libraryName": "dart.core"
           },
@@ -1931,10 +1931,10 @@
             "libraryName": "dart.core"
           },
           {
-            "bytesCurrent": 4589248,
-            "instancesCurrent": 71707,
-            "accumulatedSize": 4589248,
-            "instancesAccumulated": 71707,
+            "bytesCurrent": 4639168,
+            "instancesCurrent": 72487,
+            "accumulatedSize": 4639168,
+            "instancesAccumulated": 72487,
             "className": "_Closure",
             "libraryName": "dart.core"
           },
@@ -1963,10 +1963,10 @@
             "libraryName": null
           },
           {
-            "bytesCurrent": 3731968,
-            "instancesCurrent": 88807,
-            "accumulatedSize": 3731968,
-            "instancesAccumulated": 88807,
+            "bytesCurrent": 3777728,
+            "instancesCurrent": 89847,
+            "accumulatedSize": 3777728,
+            "instancesAccumulated": 89847,
             "className": "Context",
             "libraryName": null
           },
@@ -1987,10 +1987,10 @@
             "libraryName": "dart.core"
           },
           {
-            "bytesCurrent": 2970720,
-            "instancesCurrent": 92835,
-            "accumulatedSize": 2970720,
-            "instancesAccumulated": 92835,
+            "bytesCurrent": 2979040,
+            "instancesCurrent": 93095,
+            "accumulatedSize": 2979040,
+            "instancesAccumulated": 93095,
             "className": "_GrowableList",
             "libraryName": "dart.core"
           },
@@ -2003,12 +2003,20 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 2205120,
-            "instancesCurrent": 17223,
-            "accumulatedSize": 2205120,
-            "instancesAccumulated": 17223,
+            "bytesCurrent": 2238400,
+            "instancesCurrent": 17483,
+            "accumulatedSize": 2238400,
+            "instancesAccumulated": 17483,
             "className": "_SuspendState",
             "libraryName": "dart.async"
+          },
+          {
+            "bytesCurrent": 2174528,
+            "instancesCurrent": 33977,
+            "accumulatedSize": 2174528,
+            "instancesAccumulated": 33977,
+            "className": "_TypeParameter",
+            "libraryName": "dart.core"
           },
           {
             "bytesCurrent": 1999088,
@@ -2059,14 +2067,6 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 1338176,
-            "instancesCurrent": 20909,
-            "accumulatedSize": 1338176,
-            "instancesAccumulated": 20909,
-            "className": "_TypeParameter",
-            "libraryName": "dart.core"
-          },
-          {
             "bytesCurrent": 1234112,
             "instancesCurrent": 7012,
             "accumulatedSize": 1234112,
@@ -2083,10 +2083,10 @@
             "libraryName": "dart.typed_data"
           },
           {
-            "bytesCurrent": 832944,
-            "instancesCurrent": 17353,
-            "accumulatedSize": 832944,
-            "instancesAccumulated": 17353,
+            "bytesCurrent": 845424,
+            "instancesCurrent": 17613,
+            "accumulatedSize": 845424,
+            "instancesAccumulated": 17613,
             "className": "_Future",
             "libraryName": "dart.async"
           },
@@ -2099,10 +2099,10 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 727248,
-            "instancesCurrent": 15151,
-            "accumulatedSize": 727248,
-            "instancesAccumulated": 15151,
+            "bytesCurrent": 729552,
+            "instancesCurrent": 15199,
+            "accumulatedSize": 729552,
+            "instancesAccumulated": 15199,
             "className": "_Type",
             "libraryName": "dart.core"
           },
@@ -2147,20 +2147,20 @@
             "libraryName": "_fe_analyzer_shared.scanner.string_canonicalizer"
           },
           {
+            "bytesCurrent": 560480,
+            "instancesCurrent": 17515,
+            "accumulatedSize": 560480,
+            "instancesAccumulated": 17515,
+            "className": "_AsyncCallbackEntry",
+            "libraryName": "dart.async"
+          },
+          {
             "bytesCurrent": 558064,
             "instancesCurrent": 2683,
             "accumulatedSize": 558064,
             "instancesAccumulated": 2683,
             "className": "PropertyAccessorElementImpl_ImplicitGetter",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 552160,
-            "instancesCurrent": 17255,
-            "accumulatedSize": 552160,
-            "instancesAccumulated": 17255,
-            "className": "_AsyncCallbackEntry",
-            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 515072,
@@ -2187,10 +2187,10 @@
             "libraryName": "dart._compact_hash"
           },
           {
-            "bytesCurrent": 349392,
-            "instancesCurrent": 6476,
-            "accumulatedSize": 349392,
-            "instancesAccumulated": 6476,
+            "bytesCurrent": 351696,
+            "instancesCurrent": 6524,
+            "accumulatedSize": 351696,
+            "instancesAccumulated": 6524,
             "className": "TypeArguments",
             "libraryName": null
           },
@@ -2259,10 +2259,10 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 220048,
-            "instancesCurrent": 2096,
-            "accumulatedSize": 220048,
-            "instancesAccumulated": 2096,
+            "bytesCurrent": 221584,
+            "instancesCurrent": 2120,
+            "accumulatedSize": 221584,
+            "instancesAccumulated": 2120,
             "className": "_ImmutableList",
             "libraryName": "dart.core"
           },
@@ -3323,6 +3323,14 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 1920,
+            "instancesCurrent": 60,
+            "accumulatedSize": 1920,
+            "instancesAccumulated": 60,
+            "className": "_SendPort",
+            "libraryName": "dart.isolate"
+          },
+          {
             "bytesCurrent": 1824,
             "instancesCurrent": 57,
             "accumulatedSize": 1824,
@@ -3441,14 +3449,6 @@
             "instancesAccumulated": 18,
             "className": "_ConstMap",
             "libraryName": "dart._compact_hash"
-          },
-          {
-            "bytesCurrent": 1152,
-            "instancesCurrent": 36,
-            "accumulatedSize": 1152,
-            "instancesAccumulated": 36,
-            "className": "_SendPort",
-            "libraryName": "dart.isolate"
           },
           {
             "bytesCurrent": 1152,
@@ -3530,13 +3530,13 @@
     "vm.architectureBits": 64,
     "vm.hostCPU": "Apple M1 Pro",
     "vm.operatingSystem": "macos",
-    "vm.startTime": 1730288319899,
+    "vm.startTime": 1730288319900,
     "processMemoryUsage": {
       "type": "ProcessMemoryUsage",
       "root": {
         "name": "Process 35651",
         "description": "Resident set size",
-        "size": 364953600,
+        "size": 60211200,
         "children": [
           {
             "children": [
@@ -3561,7 +3561,7 @@
               {
                 "name": "Page Cache",
                 "description": "Cached heap regions",
-                "size": 524288,
+                "size": 1048576,
                 "children": []
               },
               {
@@ -3591,13 +3591,13 @@
                   {
                     "name": "Used",
                     "description": "",
-                    "size": 10573984,
+                    "size": 10608592,
                     "children": []
                   },
                   {
                     "name": "Free",
                     "description": "",
-                    "size": 2008928,
+                    "size": 1974320,
                     "children": []
                   }
                 ]
@@ -3624,18 +3624,18 @@
               {
                 "name": "IsolateGroup main",
                 "description": "Dart heap capacity",
-                "size": 351027200,
+                "size": 352075776,
                 "children": [
                   {
                     "name": "Used",
                     "description": "",
-                    "size": 342811680,
+                    "size": 343652640,
                     "children": []
                   },
                   {
                     "name": "Free",
                     "description": "",
-                    "size": 8215520,
+                    "size": 8423136,
                     "children": []
                   }
                 ]
@@ -3643,7 +3643,7 @@
             ],
             "name": "Dart VM",
             "description": "",
-            "size": 396132352
+            "size": 397705216
           }
         ]
       }
@@ -3655,16 +3655,16 @@
         "name": "main",
         "memory": {
           "type": "MemoryUsage",
-          "heapUsage": 341934224,
-          "heapCapacity": 351027200,
+          "heapUsage": 342987392,
+          "heapCapacity": 352075776,
           "externalUsage": 33280
         },
         "allocationProfile": [
           {
-            "bytesCurrent": 74609328,
-            "instancesCurrent": 515230,
-            "accumulatedSize": 74609328,
-            "instancesAccumulated": 515230,
+            "bytesCurrent": 74613744,
+            "instancesCurrent": 515350,
+            "accumulatedSize": 74613744,
+            "instancesAccumulated": 515350,
             "className": "_OneByteString",
             "libraryName": "dart.core"
           },
@@ -3677,10 +3677,10 @@
             "libraryName": "dart.typed_data"
           },
           {
-            "bytesCurrent": 48851712,
-            "instancesCurrent": 493354,
-            "accumulatedSize": 48851712,
-            "instancesAccumulated": 493354,
+            "bytesCurrent": 48898512,
+            "instancesCurrent": 493972,
+            "accumulatedSize": 48898512,
+            "instancesAccumulated": 493972,
             "className": "_List",
             "libraryName": "dart.core"
           },
@@ -3733,10 +3733,10 @@
             "libraryName": null
           },
           {
-            "bytesCurrent": 7556544,
-            "instancesCurrent": 236142,
-            "accumulatedSize": 7556544,
-            "instancesAccumulated": 236142,
+            "bytesCurrent": 7564896,
+            "instancesCurrent": 236403,
+            "accumulatedSize": 7564896,
+            "instancesAccumulated": 236403,
             "className": "_GrowableList",
             "libraryName": "dart.core"
           },
@@ -3789,10 +3789,10 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 2725632,
-            "instancesCurrent": 42588,
-            "accumulatedSize": 2725632,
-            "instancesAccumulated": 42588,
+            "bytesCurrent": 2775744,
+            "instancesCurrent": 43371,
+            "accumulatedSize": 2775744,
+            "instancesAccumulated": 43371,
             "className": "_Closure",
             "libraryName": "dart.core"
           },
@@ -3821,6 +3821,14 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 2130496,
+            "instancesCurrent": 33289,
+            "accumulatedSize": 2130496,
+            "instancesAccumulated": 33289,
+            "className": "_TypeParameter",
+            "libraryName": "dart.core"
+          },
+          {
             "bytesCurrent": 1999088,
             "instancesCurrent": 9611,
             "accumulatedSize": 1999088,
@@ -3837,20 +3845,20 @@
             "libraryName": null
           },
           {
+            "bytesCurrent": 1871376,
+            "instancesCurrent": 45096,
+            "accumulatedSize": 1871376,
+            "instancesAccumulated": 45096,
+            "className": "Context",
+            "libraryName": null
+          },
+          {
             "bytesCurrent": 1852976,
             "instancesCurrent": 3512,
             "accumulatedSize": 1852976,
             "instancesAccumulated": 3512,
             "className": "_Uint16List",
             "libraryName": "dart.typed_data"
-          },
-          {
-            "bytesCurrent": 1825440,
-            "instancesCurrent": 44052,
-            "accumulatedSize": 1825440,
-            "instancesAccumulated": 44052,
-            "className": "Context",
-            "libraryName": null
           },
           {
             "bytesCurrent": 1658560,
@@ -3875,14 +3883,6 @@
             "instancesAccumulated": 32698,
             "className": "_InfoFormalParameter",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1294144,
-            "instancesCurrent": 20221,
-            "accumulatedSize": 1294144,
-            "instancesAccumulated": 20221,
-            "className": "_TypeParameter",
-            "libraryName": "dart.core"
           },
           {
             "bytesCurrent": 1291200,
@@ -3917,10 +3917,10 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 818016,
-            "instancesCurrent": 17042,
-            "accumulatedSize": 818016,
-            "instancesAccumulated": 17042,
+            "bytesCurrent": 820320,
+            "instancesCurrent": 17090,
+            "accumulatedSize": 820320,
+            "instancesAccumulated": 17090,
             "className": "_Type",
             "libraryName": "dart.core"
           },
@@ -3939,6 +3939,14 @@
             "instancesAccumulated": 11091,
             "className": "FieldElementLinkedData",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 661568,
+            "instancesCurrent": 5118,
+            "accumulatedSize": 661568,
+            "instancesAccumulated": 5118,
+            "className": "_SuspendState",
+            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 658944,
@@ -3971,14 +3979,6 @@
             "instancesAccumulated": 13136,
             "className": "_Uint8ArrayView",
             "libraryName": "dart.typed_data"
-          },
-          {
-            "bytesCurrent": 628160,
-            "instancesCurrent": 4857,
-            "accumulatedSize": 628160,
-            "instancesAccumulated": 4857,
-            "className": "_SuspendState",
-            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 626112,
@@ -4045,20 +4045,20 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 375456,
+            "instancesCurrent": 6966,
+            "accumulatedSize": 375456,
+            "instancesAccumulated": 6966,
+            "className": "TypeArguments",
+            "libraryName": null
+          },
+          {
             "bytesCurrent": 373472,
             "instancesCurrent": 2122,
             "accumulatedSize": 373472,
             "instancesAccumulated": 2122,
             "className": "FileState",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 373152,
-            "instancesCurrent": 6918,
-            "accumulatedSize": 373152,
-            "instancesAccumulated": 6918,
-            "className": "TypeArguments",
-            "libraryName": null
           },
           {
             "bytesCurrent": 321408,
@@ -4125,6 +4125,14 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 260640,
+            "instancesCurrent": 5430,
+            "accumulatedSize": 260640,
+            "instancesAccumulated": 5430,
+            "className": "_Future",
+            "libraryName": "dart.async"
+          },
+          {
             "bytesCurrent": 256160,
             "instancesCurrent": 2712,
             "accumulatedSize": 256160,
@@ -4155,14 +4163,6 @@
             "instancesAccumulated": 5184,
             "className": "DirectiveUriWithLibraryImpl",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 248112,
-            "instancesCurrent": 5169,
-            "accumulatedSize": 248112,
-            "instancesAccumulated": 5169,
-            "className": "_Future",
-            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 239584,
@@ -4197,10 +4197,10 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 227344,
-            "instancesCurrent": 2187,
-            "accumulatedSize": 227344,
-            "instancesAccumulated": 2187,
+            "bytesCurrent": 228880,
+            "instancesCurrent": 2211,
+            "accumulatedSize": 228880,
+            "instancesAccumulated": 2211,
             "className": "_ImmutableList",
             "libraryName": "dart.core"
           },
@@ -4261,20 +4261,20 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 162880,
+            "instancesCurrent": 5090,
+            "accumulatedSize": 162880,
+            "instancesAccumulated": 5090,
+            "className": "_AsyncCallbackEntry",
+            "libraryName": "dart.async"
+          },
+          {
             "bytesCurrent": 161760,
             "instancesCurrent": 1011,
             "accumulatedSize": 161760,
             "instancesAccumulated": 1011,
             "className": "TypeParameterElementImpl",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 154528,
-            "instancesCurrent": 4829,
-            "accumulatedSize": 154528,
-            "instancesAccumulated": 4829,
-            "className": "_AsyncCallbackEntry",
-            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 152880,
@@ -5621,6 +5621,14 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 1888,
+            "instancesCurrent": 59,
+            "accumulatedSize": 1888,
+            "instancesAccumulated": 59,
+            "className": "_SendPort",
+            "libraryName": "dart.isolate"
+          },
+          {
             "bytesCurrent": 1856,
             "instancesCurrent": 58,
             "accumulatedSize": 1856,
@@ -5806,14 +5814,6 @@
           },
           {
             "bytesCurrent": 1152,
-            "instancesCurrent": 4,
-            "accumulatedSize": 1152,
-            "instancesAccumulated": 4,
-            "className": "ExtensionTypeElementImpl",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1152,
             "instancesCurrent": 18,
             "accumulatedSize": 1152,
             "instancesAccumulated": 18,
@@ -5826,6 +5826,14 @@
             "accumulatedSize": 1152,
             "instancesAccumulated": 18,
             "className": "BlockImpl",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1152,
+            "instancesCurrent": 4,
+            "accumulatedSize": 1152,
+            "instancesAccumulated": 4,
+            "className": "ExtensionTypeElementImpl",
             "libraryName": ""
           },
           {
@@ -5843,14 +5851,6 @@
             "instancesAccumulated": 70,
             "className": "SymbolKind",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1120,
-            "instancesCurrent": 35,
-            "accumulatedSize": 1120,
-            "instancesAccumulated": 35,
-            "className": "_SendPort",
-            "libraryName": "dart.isolate"
           },
           {
             "bytesCurrent": 1120,
@@ -5948,16 +5948,16 @@
         "name": "EvictingFileByteStore._cacheCleanUpFunction",
         "memory": {
           "type": "MemoryUsage",
-          "heapUsage": 342005632,
-          "heapCapacity": 351027200,
+          "heapUsage": 343058800,
+          "heapCapacity": 352075776,
           "externalUsage": 33280
         },
         "allocationProfile": [
           {
-            "bytesCurrent": 74609696,
-            "instancesCurrent": 515240,
-            "accumulatedSize": 74609696,
-            "instancesAccumulated": 515240,
+            "bytesCurrent": 74614112,
+            "instancesCurrent": 515360,
+            "accumulatedSize": 74614112,
+            "instancesAccumulated": 515360,
             "className": "_OneByteString",
             "libraryName": "dart.core"
           },
@@ -5970,10 +5970,10 @@
             "libraryName": "dart.typed_data"
           },
           {
-            "bytesCurrent": 48852480,
-            "instancesCurrent": 493362,
-            "accumulatedSize": 48852480,
-            "instancesAccumulated": 493362,
+            "bytesCurrent": 48899280,
+            "instancesCurrent": 493980,
+            "accumulatedSize": 48899280,
+            "instancesAccumulated": 493980,
             "className": "_List",
             "libraryName": "dart.core"
           },
@@ -6026,10 +6026,10 @@
             "libraryName": null
           },
           {
-            "bytesCurrent": 7556544,
-            "instancesCurrent": 236142,
-            "accumulatedSize": 7556544,
-            "instancesAccumulated": 236142,
+            "bytesCurrent": 7564896,
+            "instancesCurrent": 236403,
+            "accumulatedSize": 7564896,
+            "instancesAccumulated": 236403,
             "className": "_GrowableList",
             "libraryName": "dart.core"
           },
@@ -6082,10 +6082,10 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 2725632,
-            "instancesCurrent": 42588,
-            "accumulatedSize": 2725632,
-            "instancesAccumulated": 42588,
+            "bytesCurrent": 2775744,
+            "instancesCurrent": 43371,
+            "accumulatedSize": 2775744,
+            "instancesAccumulated": 43371,
             "className": "_Closure",
             "libraryName": "dart.core"
           },
@@ -6114,6 +6114,14 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 2200192,
+            "instancesCurrent": 34378,
+            "accumulatedSize": 2200192,
+            "instancesAccumulated": 34378,
+            "className": "_TypeParameter",
+            "libraryName": "dart.core"
+          },
+          {
             "bytesCurrent": 1999088,
             "instancesCurrent": 9611,
             "accumulatedSize": 1999088,
@@ -6130,20 +6138,20 @@
             "libraryName": null
           },
           {
+            "bytesCurrent": 1871376,
+            "instancesCurrent": 45096,
+            "accumulatedSize": 1871376,
+            "instancesAccumulated": 45096,
+            "className": "Context",
+            "libraryName": null
+          },
+          {
             "bytesCurrent": 1852976,
             "instancesCurrent": 3512,
             "accumulatedSize": 1852976,
             "instancesAccumulated": 3512,
             "className": "_Uint16List",
             "libraryName": "dart.typed_data"
-          },
-          {
-            "bytesCurrent": 1825440,
-            "instancesCurrent": 44052,
-            "accumulatedSize": 1825440,
-            "instancesAccumulated": 44052,
-            "className": "Context",
-            "libraryName": null
           },
           {
             "bytesCurrent": 1658560,
@@ -6168,14 +6176,6 @@
             "instancesAccumulated": 32698,
             "className": "_InfoFormalParameter",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1363840,
-            "instancesCurrent": 21310,
-            "accumulatedSize": 1363840,
-            "instancesAccumulated": 21310,
-            "className": "_TypeParameter",
-            "libraryName": "dart.core"
           },
           {
             "bytesCurrent": 1291200,
@@ -6210,10 +6210,10 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 818208,
-            "instancesCurrent": 17046,
-            "accumulatedSize": 818208,
-            "instancesAccumulated": 17046,
+            "bytesCurrent": 820512,
+            "instancesCurrent": 17094,
+            "accumulatedSize": 820512,
+            "instancesAccumulated": 17094,
             "className": "_Type",
             "libraryName": "dart.core"
           },
@@ -6232,6 +6232,14 @@
             "instancesAccumulated": 11091,
             "className": "FieldElementLinkedData",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 661568,
+            "instancesCurrent": 5118,
+            "accumulatedSize": 661568,
+            "instancesAccumulated": 5118,
+            "className": "_SuspendState",
+            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 658944,
@@ -6264,14 +6272,6 @@
             "instancesAccumulated": 13136,
             "className": "_Uint8ArrayView",
             "libraryName": "dart.typed_data"
-          },
-          {
-            "bytesCurrent": 628160,
-            "instancesCurrent": 4857,
-            "accumulatedSize": 628160,
-            "instancesAccumulated": 4857,
-            "className": "_SuspendState",
-            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 626112,
@@ -6338,20 +6338,20 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 375648,
+            "instancesCurrent": 6970,
+            "accumulatedSize": 375648,
+            "instancesAccumulated": 6970,
+            "className": "TypeArguments",
+            "libraryName": null
+          },
+          {
             "bytesCurrent": 373472,
             "instancesCurrent": 2122,
             "accumulatedSize": 373472,
             "instancesAccumulated": 2122,
             "className": "FileState",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 373344,
-            "instancesCurrent": 6922,
-            "accumulatedSize": 373344,
-            "instancesAccumulated": 6922,
-            "className": "TypeArguments",
-            "libraryName": null
           },
           {
             "bytesCurrent": 321408,
@@ -6418,6 +6418,14 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 260640,
+            "instancesCurrent": 5430,
+            "accumulatedSize": 260640,
+            "instancesAccumulated": 5430,
+            "className": "_Future",
+            "libraryName": "dart.async"
+          },
+          {
             "bytesCurrent": 256160,
             "instancesCurrent": 2712,
             "accumulatedSize": 256160,
@@ -6448,14 +6456,6 @@
             "instancesAccumulated": 5184,
             "className": "DirectiveUriWithLibraryImpl",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 248112,
-            "instancesCurrent": 5169,
-            "accumulatedSize": 248112,
-            "instancesAccumulated": 5169,
-            "className": "_Future",
-            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 239584,
@@ -6490,10 +6490,10 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 227472,
-            "instancesCurrent": 2189,
-            "accumulatedSize": 227472,
-            "instancesAccumulated": 2189,
+            "bytesCurrent": 229008,
+            "instancesCurrent": 2213,
+            "accumulatedSize": 229008,
+            "instancesAccumulated": 2213,
             "className": "_ImmutableList",
             "libraryName": "dart.core"
           },
@@ -6554,20 +6554,20 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 162880,
+            "instancesCurrent": 5090,
+            "accumulatedSize": 162880,
+            "instancesAccumulated": 5090,
+            "className": "_AsyncCallbackEntry",
+            "libraryName": "dart.async"
+          },
+          {
             "bytesCurrent": 161760,
             "instancesCurrent": 1011,
             "accumulatedSize": 161760,
             "instancesAccumulated": 1011,
             "className": "TypeParameterElementImpl",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 154528,
-            "instancesCurrent": 4829,
-            "accumulatedSize": 154528,
-            "instancesAccumulated": 4829,
-            "className": "_AsyncCallbackEntry",
-            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 152880,
@@ -7906,6 +7906,14 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 1952,
+            "instancesCurrent": 61,
+            "accumulatedSize": 1952,
+            "instancesAccumulated": 61,
+            "className": "_SendPort",
+            "libraryName": "dart.isolate"
+          },
+          {
             "bytesCurrent": 1920,
             "instancesCurrent": 30,
             "accumulatedSize": 1920,
@@ -8098,22 +8106,6 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 1184,
-            "instancesCurrent": 37,
-            "accumulatedSize": 1184,
-            "instancesAccumulated": 37,
-            "className": "_SendPort",
-            "libraryName": "dart.isolate"
-          },
-          {
-            "bytesCurrent": 1152,
-            "instancesCurrent": 4,
-            "accumulatedSize": 1152,
-            "instancesAccumulated": 4,
-            "className": "ExtensionTypeElementImpl",
-            "libraryName": ""
-          },
-          {
             "bytesCurrent": 1152,
             "instancesCurrent": 18,
             "accumulatedSize": 1152,
@@ -8127,6 +8119,14 @@
             "accumulatedSize": 1152,
             "instancesAccumulated": 18,
             "className": "BlockImpl",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1152,
+            "instancesCurrent": 4,
+            "accumulatedSize": 1152,
+            "instancesAccumulated": 4,
+            "className": "ExtensionTypeElementImpl",
             "libraryName": ""
           },
           {
@@ -8241,13 +8241,13 @@
     "vm.architectureBits": 64,
     "vm.hostCPU": "Apple M1 Pro",
     "vm.operatingSystem": "macos",
-    "vm.startTime": 1730366558068,
+    "vm.startTime": 1730366558069,
     "processMemoryUsage": {
       "type": "ProcessMemoryUsage",
       "root": {
         "name": "Process 77607",
         "description": "Resident set size",
-        "size": 416645120,
+        "size": 100171776,
         "children": [
           {
             "children": [
@@ -8302,13 +8302,13 @@
                   {
                     "name": "Used",
                     "description": "",
-                    "size": 12831792,
+                    "size": 12760608,
                     "children": []
                   },
                   {
                     "name": "Free",
                     "description": "",
-                    "size": 881616,
+                    "size": 952800,
                     "children": []
                   }
                 ]
@@ -8335,18 +8335,18 @@
               {
                 "name": "IsolateGroup main",
                 "description": "Dart heap capacity",
-                "size": 285540352,
+                "size": 289210368,
                 "children": [
                   {
                     "name": "Used",
                     "description": "",
-                    "size": 279298784,
+                    "size": 283248240,
                     "children": []
                   },
                   {
                     "name": "Free",
                     "description": "",
-                    "size": 6241568,
+                    "size": 5962128,
                     "children": []
                   }
                 ]
@@ -8354,7 +8354,7 @@
             ],
             "name": "Dart VM",
             "description": "",
-            "size": 332414976
+            "size": 336084992
           }
         ]
       }
@@ -8366,48 +8366,48 @@
         "name": "main",
         "memory": {
           "type": "MemoryUsage",
-          "heapUsage": 278841968,
-          "heapCapacity": 285540352,
-          "externalUsage": 21328
+          "heapUsage": 283087664,
+          "heapCapacity": 289210368,
+          "externalUsage": 22560
         },
         "allocationProfile": [
           {
-            "bytesCurrent": 98973584,
-            "instancesCurrent": 917795,
-            "accumulatedSize": 98973584,
-            "instancesAccumulated": 917795,
+            "bytesCurrent": 99609952,
+            "instancesCurrent": 926801,
+            "accumulatedSize": 99609952,
+            "instancesAccumulated": 926801,
             "className": "_List",
             "libraryName": "dart.core"
           },
           {
-            "bytesCurrent": 36638080,
-            "instancesCurrent": 253358,
-            "accumulatedSize": 36638080,
-            "instancesAccumulated": 253358,
+            "bytesCurrent": 36686816,
+            "instancesCurrent": 253586,
+            "accumulatedSize": 36686816,
+            "instancesAccumulated": 253586,
             "className": "_Uint8List",
             "libraryName": "dart.typed_data"
           },
           {
-            "bytesCurrent": 36246816,
-            "instancesCurrent": 374255,
-            "accumulatedSize": 36246816,
-            "instancesAccumulated": 374255,
+            "bytesCurrent": 36455600,
+            "instancesCurrent": 379488,
+            "accumulatedSize": 36455600,
+            "instancesAccumulated": 379488,
             "className": "_OneByteString",
             "libraryName": "dart.core"
           },
           {
-            "bytesCurrent": 19887648,
-            "instancesCurrent": 31584,
-            "accumulatedSize": 19887648,
-            "instancesAccumulated": 31584,
+            "bytesCurrent": 19987840,
+            "instancesCurrent": 31759,
+            "accumulatedSize": 19987840,
+            "instancesAccumulated": 31759,
             "className": "Instructions",
             "libraryName": null
           },
           {
-            "bytesCurrent": 19490496,
-            "instancesCurrent": 609078,
-            "accumulatedSize": 19490496,
-            "instancesAccumulated": 609078,
+            "bytesCurrent": 19496032,
+            "instancesCurrent": 609251,
+            "accumulatedSize": 19496032,
+            "instancesAccumulated": 609251,
             "className": "DateTime",
             "libraryName": "dart.core"
           },
@@ -8420,98 +8420,98 @@
             "libraryName": "dart.io"
           },
           {
-            "bytesCurrent": 8520224,
-            "instancesCurrent": 15788,
-            "accumulatedSize": 8520224,
-            "instancesAccumulated": 15788,
+            "bytesCurrent": 8573632,
+            "instancesCurrent": 16007,
+            "accumulatedSize": 8573632,
+            "instancesAccumulated": 16007,
             "className": "_Uint32List",
             "libraryName": "dart.typed_data"
           },
           {
-            "bytesCurrent": 7774720,
-            "instancesCurrent": 121480,
-            "accumulatedSize": 7774720,
-            "instancesAccumulated": 121480,
+            "bytesCurrent": 7827712,
+            "instancesCurrent": 122308,
+            "accumulatedSize": 7827712,
+            "instancesAccumulated": 122308,
             "className": "ICData",
             "libraryName": null
           },
           {
-            "bytesCurrent": 7555712,
-            "instancesCurrent": 59029,
-            "accumulatedSize": 7555712,
-            "instancesAccumulated": 59029,
+            "bytesCurrent": 7568640,
+            "instancesCurrent": 59130,
+            "accumulatedSize": 7568640,
+            "instancesAccumulated": 59130,
             "className": "Function",
             "libraryName": null
           },
           {
-            "bytesCurrent": 6510784,
-            "instancesCurrent": 203462,
-            "accumulatedSize": 6510784,
-            "instancesAccumulated": 203462,
+            "bytesCurrent": 6511648,
+            "instancesCurrent": 203489,
+            "accumulatedSize": 6511648,
+            "instancesAccumulated": 203489,
             "className": "_File",
             "libraryName": "dart.io"
           },
           {
-            "bytesCurrent": 5538368,
-            "instancesCurrent": 31468,
-            "accumulatedSize": 5538368,
-            "instancesAccumulated": 31468,
+            "bytesCurrent": 5569168,
+            "instancesCurrent": 31643,
+            "accumulatedSize": 5569168,
+            "instancesAccumulated": 31643,
             "className": "Code",
             "libraryName": null
           },
           {
-            "bytesCurrent": 4665200,
-            "instancesCurrent": 26693,
-            "accumulatedSize": 4665200,
-            "instancesAccumulated": 26693,
+            "bytesCurrent": 4690400,
+            "instancesCurrent": 26844,
+            "accumulatedSize": 4690400,
+            "instancesAccumulated": 26844,
             "className": "ObjectPool",
             "libraryName": null
           },
           {
-            "bytesCurrent": 4587120,
-            "instancesCurrent": 22046,
-            "accumulatedSize": 4587120,
-            "instancesAccumulated": 22046,
+            "bytesCurrent": 4615824,
+            "instancesCurrent": 22196,
+            "accumulatedSize": 4615824,
+            "instancesAccumulated": 22196,
             "className": "PcDescriptors",
             "libraryName": null
           },
           {
-            "bytesCurrent": 3943920,
-            "instancesCurrent": 16433,
-            "accumulatedSize": 3943920,
-            "instancesAccumulated": 16433,
+            "bytesCurrent": 3954480,
+            "instancesCurrent": 16477,
+            "accumulatedSize": 3954480,
+            "instancesAccumulated": 16477,
             "className": "Declaration",
             "libraryName": ""
           },
           {
-            "bytesCurrent": 3678608,
-            "instancesCurrent": 45988,
-            "accumulatedSize": 3678608,
-            "instancesAccumulated": 45988,
+            "bytesCurrent": 3678768,
+            "instancesCurrent": 45993,
+            "accumulatedSize": 3678768,
+            "instancesAccumulated": 45993,
             "className": "_Int64List",
             "libraryName": "dart.typed_data"
           },
           {
-            "bytesCurrent": 3513808,
-            "instancesCurrent": 22782,
-            "accumulatedSize": 3513808,
-            "instancesAccumulated": 22782,
+            "bytesCurrent": 3531600,
+            "instancesCurrent": 22934,
+            "accumulatedSize": 3531600,
+            "instancesAccumulated": 22934,
             "className": "CodeSourceMap",
             "libraryName": null
           },
           {
-            "bytesCurrent": 3153680,
-            "instancesCurrent": 39421,
-            "accumulatedSize": 3153680,
-            "instancesAccumulated": 39421,
+            "bytesCurrent": 3164640,
+            "instancesCurrent": 39558,
+            "accumulatedSize": 3164640,
+            "instancesAccumulated": 39558,
             "className": "_FunctionType",
             "libraryName": "dart.core"
           },
           {
-            "bytesCurrent": 2041888,
-            "instancesCurrent": 63809,
-            "accumulatedSize": 2041888,
-            "instancesAccumulated": 63809,
+            "bytesCurrent": 2220928,
+            "instancesCurrent": 69404,
+            "accumulatedSize": 2220928,
+            "instancesAccumulated": 69404,
             "className": "_GrowableList",
             "libraryName": "dart.core"
           },
@@ -8524,10 +8524,10 @@
             "libraryName": null
           },
           {
-            "bytesCurrent": 1854000,
-            "instancesCurrent": 3137,
-            "accumulatedSize": 1854000,
-            "instancesAccumulated": 3137,
+            "bytesCurrent": 1855456,
+            "instancesCurrent": 3145,
+            "accumulatedSize": 1855456,
+            "instancesAccumulated": 3145,
             "className": "WeakArray",
             "libraryName": null
           },
@@ -8540,20 +8540,44 @@
             "libraryName": "dart.core"
           },
           {
-            "bytesCurrent": 1458144,
-            "instancesCurrent": 15189,
-            "accumulatedSize": 1458144,
-            "instancesAccumulated": 15189,
+            "bytesCurrent": 1462944,
+            "instancesCurrent": 15239,
+            "accumulatedSize": 1462944,
+            "instancesAccumulated": 15239,
             "className": "Field",
             "libraryName": null
           },
           {
-            "bytesCurrent": 1135648,
-            "instancesCurrent": 2358,
-            "accumulatedSize": 1135648,
-            "instancesAccumulated": 2358,
+            "bytesCurrent": 1137696,
+            "instancesCurrent": 2362,
+            "accumulatedSize": 1137696,
+            "instancesAccumulated": 2362,
             "className": "_Uint16List",
             "libraryName": "dart.typed_data"
+          },
+          {
+            "bytesCurrent": 1120064,
+            "instancesCurrent": 17501,
+            "accumulatedSize": 1120064,
+            "instancesAccumulated": 17501,
+            "className": "_Closure",
+            "libraryName": "dart.core"
+          },
+          {
+            "bytesCurrent": 948864,
+            "instancesCurrent": 14826,
+            "accumulatedSize": 948864,
+            "instancesAccumulated": 14826,
+            "className": "_TypeParameter",
+            "libraryName": "dart.core"
+          },
+          {
+            "bytesCurrent": 782912,
+            "instancesCurrent": 17817,
+            "accumulatedSize": 782912,
+            "instancesAccumulated": 17817,
+            "className": "Context",
+            "libraryName": null
           },
           {
             "bytesCurrent": 640000,
@@ -8564,6 +8588,14 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 638304,
+            "instancesCurrent": 13298,
+            "accumulatedSize": 638304,
+            "instancesAccumulated": 13298,
+            "className": "_Type",
+            "libraryName": "dart.core"
+          },
+          {
             "bytesCurrent": 600720,
             "instancesCurrent": 12515,
             "accumulatedSize": 600720,
@@ -8572,26 +8604,10 @@
             "libraryName": null
           },
           {
-            "bytesCurrent": 566928,
-            "instancesCurrent": 11811,
-            "accumulatedSize": 566928,
-            "instancesAccumulated": 11811,
-            "className": "_Type",
-            "libraryName": "dart.core"
-          },
-          {
-            "bytesCurrent": 474688,
-            "instancesCurrent": 7417,
-            "accumulatedSize": 474688,
-            "instancesAccumulated": 7417,
-            "className": "_Closure",
-            "libraryName": "dart.core"
-          },
-          {
-            "bytesCurrent": 368816,
-            "instancesCurrent": 3070,
-            "accumulatedSize": 368816,
-            "instancesAccumulated": 3070,
+            "bytesCurrent": 372672,
+            "instancesCurrent": 3131,
+            "accumulatedSize": 372672,
+            "instancesAccumulated": 3131,
             "className": "_ImmutableList",
             "libraryName": "dart.core"
           },
@@ -8620,6 +8636,14 @@
             "libraryName": null
           },
           {
+            "bytesCurrent": 286080,
+            "instancesCurrent": 5304,
+            "accumulatedSize": 286080,
+            "instancesAccumulated": 5304,
+            "className": "TypeArguments",
+            "libraryName": null
+          },
+          {
             "bytesCurrent": 283264,
             "instancesCurrent": 8852,
             "accumulatedSize": 283264,
@@ -8628,28 +8652,12 @@
             "libraryName": "_fe_analyzer_shared.scanner.string_canonicalizer"
           },
           {
-            "bytesCurrent": 256000,
-            "instancesCurrent": 4733,
-            "accumulatedSize": 256000,
-            "instancesAccumulated": 4733,
-            "className": "TypeArguments",
-            "libraryName": null
-          },
-          {
             "bytesCurrent": 249936,
             "instancesCurrent": 5207,
             "accumulatedSize": 249936,
             "instancesAccumulated": 5207,
             "className": "_InfoFormalParameter",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 245680,
-            "instancesCurrent": 5807,
-            "accumulatedSize": 245680,
-            "instancesAccumulated": 5807,
-            "className": "Context",
-            "libraryName": null
           },
           {
             "bytesCurrent": 231296,
@@ -8668,26 +8676,26 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 224768,
-            "instancesCurrent": 3512,
-            "accumulatedSize": 224768,
-            "instancesAccumulated": 3512,
+            "bytesCurrent": 228800,
+            "instancesCurrent": 3575,
+            "accumulatedSize": 228800,
+            "instancesAccumulated": 3575,
             "className": "_Map",
             "libraryName": "dart.collection"
           },
           {
-            "bytesCurrent": 220896,
-            "instancesCurrent": 1716,
-            "accumulatedSize": 220896,
-            "instancesAccumulated": 1716,
+            "bytesCurrent": 224704,
+            "instancesCurrent": 1744,
+            "accumulatedSize": 224704,
+            "instancesAccumulated": 1744,
             "className": "ContextScope",
             "libraryName": null
           },
           {
-            "bytesCurrent": 217856,
-            "instancesCurrent": 2361,
-            "accumulatedSize": 217856,
-            "instancesAccumulated": 2361,
+            "bytesCurrent": 218112,
+            "instancesCurrent": 2367,
+            "accumulatedSize": 218112,
+            "instancesAccumulated": 2367,
             "className": "CompressedStackMaps",
             "libraryName": null
           },
@@ -8708,6 +8716,14 @@
             "libraryName": null
           },
           {
+            "bytesCurrent": 166992,
+            "instancesCurrent": 3479,
+            "accumulatedSize": 166992,
+            "instancesAccumulated": 3479,
+            "className": "_Uint8ArrayView",
+            "libraryName": "dart.typed_data"
+          },
+          {
             "bytesCurrent": 138048,
             "instancesCurrent": 719,
             "accumulatedSize": 138048,
@@ -8716,20 +8732,12 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 131712,
-            "instancesCurrent": 2744,
-            "accumulatedSize": 131712,
-            "instancesAccumulated": 2744,
-            "className": "_Uint8ArrayView",
-            "libraryName": "dart.typed_data"
-          },
-          {
-            "bytesCurrent": 131136,
-            "instancesCurrent": 2049,
-            "accumulatedSize": 131136,
-            "instancesAccumulated": 2049,
-            "className": "_TypeParameter",
-            "libraryName": "dart.core"
+            "bytesCurrent": 137408,
+            "instancesCurrent": 2147,
+            "accumulatedSize": 137408,
+            "instancesAccumulated": 2147,
+            "className": "_Set",
+            "libraryName": "dart.collection"
           },
           {
             "bytesCurrent": 129408,
@@ -8748,18 +8756,18 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 113216,
-            "instancesCurrent": 1769,
-            "accumulatedSize": 113216,
-            "instancesAccumulated": 1769,
-            "className": "_Set",
-            "libraryName": "dart.collection"
+            "bytesCurrent": 123504,
+            "instancesCurrent": 2573,
+            "accumulatedSize": 123504,
+            "instancesAccumulated": 2573,
+            "className": "_Future",
+            "libraryName": "dart.async"
           },
           {
-            "bytesCurrent": 108960,
-            "instancesCurrent": 2270,
-            "accumulatedSize": 108960,
-            "instancesAccumulated": 2270,
+            "bytesCurrent": 110400,
+            "instancesCurrent": 2300,
+            "accumulatedSize": 110400,
+            "instancesAccumulated": 2300,
             "className": "ClosureData",
             "libraryName": null
           },
@@ -8788,18 +8796,18 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 90480,
-            "instancesCurrent": 1885,
-            "accumulatedSize": 90480,
-            "instancesAccumulated": 1885,
+            "bytesCurrent": 90720,
+            "instancesCurrent": 1890,
+            "accumulatedSize": 90720,
+            "instancesAccumulated": 1890,
             "className": "TypeParameters",
             "libraryName": null
           },
           {
-            "bytesCurrent": 85728,
-            "instancesCurrent": 1786,
-            "accumulatedSize": 85728,
-            "instancesAccumulated": 1786,
+            "bytesCurrent": 88032,
+            "instancesCurrent": 1834,
+            "accumulatedSize": 88032,
+            "instancesAccumulated": 1834,
             "className": "_HashMapEntry",
             "libraryName": "dart.collection"
           },
@@ -8818,6 +8826,30 @@
             "instancesAccumulated": 386,
             "className": "PropertyAccessorElementImpl",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 73920,
+            "instancesCurrent": 1540,
+            "accumulatedSize": 73920,
+            "instancesAccumulated": 1540,
+            "className": "ListIterator",
+            "libraryName": "dart._internal"
+          },
+          {
+            "bytesCurrent": 70656,
+            "instancesCurrent": 1104,
+            "accumulatedSize": 70656,
+            "instancesAccumulated": 1104,
+            "className": "_Timer",
+            "libraryName": "dart.isolate"
+          },
+          {
+            "bytesCurrent": 69440,
+            "instancesCurrent": 496,
+            "accumulatedSize": 69440,
+            "instancesAccumulated": 496,
+            "className": "_SuspendState",
+            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 65680,
@@ -8860,20 +8892,20 @@
             "libraryName": "dart._internal"
           },
           {
+            "bytesCurrent": 53952,
+            "instancesCurrent": 843,
+            "accumulatedSize": 53952,
+            "instancesAccumulated": 843,
+            "className": "StringBuffer",
+            "libraryName": "dart.core"
+          },
+          {
             "bytesCurrent": 53600,
             "instancesCurrent": 670,
             "accumulatedSize": 53600,
             "instancesAccumulated": 670,
             "className": "ClassElementLinkedData",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 49664,
-            "instancesCurrent": 776,
-            "accumulatedSize": 49664,
-            "instancesAccumulated": 776,
-            "className": "StringBuffer",
-            "libraryName": "dart.core"
           },
           {
             "bytesCurrent": 49088,
@@ -8972,12 +9004,28 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 33888,
+            "instancesCurrent": 1059,
+            "accumulatedSize": 33888,
+            "instancesAccumulated": 1059,
+            "className": "_AsyncCallbackEntry",
+            "libraryName": "dart.async"
+          },
+          {
             "bytesCurrent": 32576,
             "instancesCurrent": 509,
             "accumulatedSize": 32576,
             "instancesAccumulated": 509,
             "className": "FieldElementLinkedData",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 31680,
+            "instancesCurrent": 396,
+            "accumulatedSize": 31680,
+            "instancesAccumulated": 396,
+            "className": "_CompactIterator",
+            "libraryName": "dart.collection"
           },
           {
             "bytesCurrent": 31152,
@@ -8994,6 +9042,22 @@
             "instancesAccumulated": 149,
             "className": "ConstTopLevelVariableElementImpl",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 29856,
+            "instancesCurrent": 622,
+            "accumulatedSize": 29856,
+            "instancesAccumulated": 622,
+            "className": "ParsedPath",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 28672,
+            "instancesCurrent": 448,
+            "accumulatedSize": 28672,
+            "instancesAccumulated": 448,
+            "className": "_FutureListener",
+            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 28176,
@@ -9036,10 +9100,10 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 23712,
-            "instancesCurrent": 741,
-            "accumulatedSize": 23712,
-            "instancesAccumulated": 741,
+            "bytesCurrent": 23776,
+            "instancesCurrent": 743,
+            "accumulatedSize": 23776,
+            "instancesAccumulated": 743,
             "className": "SubtypeTestCache",
             "libraryName": null
           },
@@ -9076,10 +9140,10 @@
             "libraryName": null
           },
           {
-            "bytesCurrent": 20384,
-            "instancesCurrent": 423,
-            "accumulatedSize": 20384,
-            "instancesAccumulated": 423,
+            "bytesCurrent": 20480,
+            "instancesCurrent": 425,
+            "accumulatedSize": 20480,
+            "instancesAccumulated": 425,
             "className": "ExceptionHandlers",
             "libraryName": null
           },
@@ -9092,10 +9156,10 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 19648,
-            "instancesCurrent": 614,
-            "accumulatedSize": 19648,
-            "instancesAccumulated": 614,
+            "bytesCurrent": 19776,
+            "instancesCurrent": 618,
+            "accumulatedSize": 19776,
+            "instancesAccumulated": 618,
             "className": "LineInfo",
             "libraryName": ""
           },
@@ -9188,18 +9252,10 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 15504,
-            "instancesCurrent": 323,
-            "accumulatedSize": 15504,
-            "instancesAccumulated": 323,
-            "className": "ListIterator",
-            "libraryName": "dart._internal"
-          },
-          {
-            "bytesCurrent": 14944,
-            "instancesCurrent": 467,
-            "accumulatedSize": 14944,
-            "instancesAccumulated": 467,
+            "bytesCurrent": 15680,
+            "instancesCurrent": 490,
+            "accumulatedSize": 15680,
+            "instancesAccumulated": 490,
             "className": "_Directory",
             "libraryName": "dart.io"
           },
@@ -9212,18 +9268,18 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 14112,
-            "instancesCurrent": 441,
-            "accumulatedSize": 14112,
-            "instancesAccumulated": 441,
+            "bytesCurrent": 14240,
+            "instancesCurrent": 445,
+            "accumulatedSize": 14240,
+            "instancesAccumulated": 445,
             "className": "_PhysicalFile",
             "libraryName": ""
           },
           {
-            "bytesCurrent": 14112,
-            "instancesCurrent": 441,
-            "accumulatedSize": 14112,
-            "instancesAccumulated": 441,
+            "bytesCurrent": 14240,
+            "instancesCurrent": 445,
+            "accumulatedSize": 14240,
+            "instancesAccumulated": 445,
             "className": "_OverlayFile",
             "libraryName": ""
           },
@@ -9252,6 +9308,14 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 13024,
+            "instancesCurrent": 407,
+            "accumulatedSize": 13024,
+            "instancesAccumulated": 407,
+            "className": "MappedListIterable",
+            "libraryName": "dart._internal"
+          },
+          {
             "bytesCurrent": 12720,
             "instancesCurrent": 265,
             "accumulatedSize": 12720,
@@ -9266,14 +9330,6 @@
             "instancesAccumulated": 38,
             "className": "LibraryElementImpl",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 11968,
-            "instancesCurrent": 374,
-            "accumulatedSize": 11968,
-            "instancesAccumulated": 374,
-            "className": "MappedListIterable",
-            "libraryName": "dart._internal"
           },
           {
             "bytesCurrent": 11840,
@@ -9340,6 +9396,14 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 9856,
+            "instancesCurrent": 44,
+            "accumulatedSize": 9856,
+            "instancesAccumulated": 44,
+            "className": "_AvailableDeclarationImpl",
+            "libraryName": ""
+          },
+          {
             "bytesCurrent": 9648,
             "instancesCurrent": 603,
             "accumulatedSize": 9648,
@@ -9348,19 +9412,19 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 9472,
+            "instancesCurrent": 296,
+            "accumulatedSize": 9472,
+            "instancesAccumulated": 296,
+            "className": "WhereIterable",
+            "libraryName": "dart._internal"
+          },
+          {
             "bytesCurrent": 9408,
             "instancesCurrent": 49,
             "accumulatedSize": 9408,
             "instancesAccumulated": 49,
             "className": "DefaultFieldFormalParameterElementImpl",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 9264,
-            "instancesCurrent": 193,
-            "accumulatedSize": 9264,
-            "instancesAccumulated": 193,
-            "className": "ParsedPath",
             "libraryName": ""
           },
           {
@@ -9405,14 +9469,6 @@
           },
           {
             "bytesCurrent": 8512,
-            "instancesCurrent": 266,
-            "accumulatedSize": 8512,
-            "instancesAccumulated": 266,
-            "className": "ExportedReferenceExported",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 8512,
             "instancesCurrent": 133,
             "accumulatedSize": 8512,
             "instancesAccumulated": 133,
@@ -9420,11 +9476,11 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 8496,
-            "instancesCurrent": 177,
-            "accumulatedSize": 8496,
-            "instancesAccumulated": 177,
-            "className": "AnalysisDriverUnlinkedUnit",
+            "bytesCurrent": 8512,
+            "instancesCurrent": 266,
+            "accumulatedSize": 8512,
+            "instancesAccumulated": 266,
+            "className": "ExportedReferenceExported",
             "libraryName": ""
           },
           {
@@ -9436,10 +9492,18 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 8352,
-            "instancesCurrent": 174,
-            "accumulatedSize": 8352,
-            "instancesAccumulated": 174,
+            "bytesCurrent": 8496,
+            "instancesCurrent": 177,
+            "accumulatedSize": 8496,
+            "instancesAccumulated": 177,
+            "className": "AnalysisDriverUnlinkedUnit",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 8448,
+            "instancesCurrent": 176,
+            "accumulatedSize": 8448,
+            "instancesAccumulated": 176,
             "className": "Either2",
             "libraryName": ""
           },
@@ -9476,12 +9540,28 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 7360,
+            "instancesCurrent": 230,
+            "accumulatedSize": 7360,
+            "instancesAccumulated": 230,
+            "className": "_DelayedData",
+            "libraryName": "dart.async"
+          },
+          {
             "bytesCurrent": 7280,
             "instancesCurrent": 91,
             "accumulatedSize": 7280,
             "instancesAccumulated": 91,
             "className": "NamedTypeImpl",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 7264,
+            "instancesCurrent": 227,
+            "accumulatedSize": 7264,
+            "instancesAccumulated": 227,
+            "className": "_AsyncCompleter",
+            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 7200,
@@ -9493,26 +9573,18 @@
           },
           {
             "bytesCurrent": 7008,
-            "instancesCurrent": 146,
+            "instancesCurrent": 219,
             "accumulatedSize": 7008,
-            "instancesAccumulated": 146,
-            "className": "PropertyAccessorMember",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 6944,
-            "instancesCurrent": 217,
-            "accumulatedSize": 6944,
-            "instancesAccumulated": 217,
+            "instancesAccumulated": 219,
             "className": "pragma",
             "libraryName": "dart.core"
           },
           {
-            "bytesCurrent": 6688,
-            "instancesCurrent": 209,
-            "accumulatedSize": 6688,
-            "instancesAccumulated": 209,
-            "className": "_PhysicalFolder",
+            "bytesCurrent": 7008,
+            "instancesCurrent": 146,
+            "accumulatedSize": 7008,
+            "instancesAccumulated": 146,
+            "className": "PropertyAccessorMember",
             "libraryName": ""
           },
           {
@@ -9524,11 +9596,35 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 6688,
+            "instancesCurrent": 209,
+            "accumulatedSize": 6688,
+            "instancesAccumulated": 209,
+            "className": "_PhysicalFolder",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 6656,
+            "instancesCurrent": 104,
+            "accumulatedSize": 6656,
+            "instancesAccumulated": 104,
+            "className": "_FbGenericList",
+            "libraryName": ""
+          },
+          {
             "bytesCurrent": 6480,
             "instancesCurrent": 135,
             "accumulatedSize": 6480,
             "instancesAccumulated": 135,
             "className": "PartWithFile",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 6432,
+            "instancesCurrent": 134,
+            "accumulatedSize": 6432,
+            "instancesAccumulated": 134,
+            "className": "ErrorOr",
             "libraryName": ""
           },
           {
@@ -9548,14 +9644,6 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 6192,
-            "instancesCurrent": 129,
-            "accumulatedSize": 6192,
-            "instancesAccumulated": 129,
-            "className": "ErrorOr",
-            "libraryName": ""
-          },
-          {
             "bytesCurrent": 6144,
             "instancesCurrent": 192,
             "accumulatedSize": 6144,
@@ -9565,27 +9653,19 @@
           },
           {
             "bytesCurrent": 5984,
+            "instancesCurrent": 15,
+            "accumulatedSize": 5984,
+            "instancesAccumulated": 15,
+            "className": "_Uint64List",
+            "libraryName": "dart.typed_data"
+          },
+          {
+            "bytesCurrent": 5984,
             "instancesCurrent": 187,
             "accumulatedSize": 5984,
             "instancesAccumulated": 187,
             "className": "Range",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 5952,
-            "instancesCurrent": 186,
-            "accumulatedSize": 5952,
-            "instancesAccumulated": 186,
-            "className": "WhereIterable",
-            "libraryName": "dart._internal"
-          },
-          {
-            "bytesCurrent": 5952,
-            "instancesCurrent": 186,
-            "accumulatedSize": 5952,
-            "instancesAccumulated": 186,
-            "className": "WhereTypeIterator",
-            "libraryName": "dart._internal"
           },
           {
             "bytesCurrent": 5952,
@@ -9612,6 +9692,14 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 5952,
+            "instancesCurrent": 186,
+            "accumulatedSize": 5952,
+            "instancesAccumulated": 186,
+            "className": "WhereTypeIterator",
+            "libraryName": "dart._internal"
+          },
+          {
             "bytesCurrent": 5760,
             "instancesCurrent": 30,
             "accumulatedSize": 5760,
@@ -9624,7 +9712,7 @@
             "instancesCurrent": 177,
             "accumulatedSize": 5664,
             "instancesAccumulated": 177,
-            "className": "FileUriProperties",
+            "className": "_UnlinkedUnitStoreData",
             "libraryName": ""
           },
           {
@@ -9632,7 +9720,7 @@
             "instancesCurrent": 177,
             "accumulatedSize": 5664,
             "instancesAccumulated": 177,
-            "className": "_UnlinkedUnitStoreData",
+            "className": "FileUriProperties",
             "libraryName": ""
           },
           {
@@ -9677,11 +9765,11 @@
           },
           {
             "bytesCurrent": 4896,
-            "instancesCurrent": 34,
+            "instancesCurrent": 306,
             "accumulatedSize": 4896,
-            "instancesAccumulated": 34,
-            "className": "LibraryExportElementImpl",
-            "libraryName": ""
+            "instancesAccumulated": 306,
+            "className": "_ByteBuffer",
+            "libraryName": "dart.typed_data"
           },
           {
             "bytesCurrent": 4896,
@@ -9692,12 +9780,36 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 4896,
+            "instancesCurrent": 34,
+            "accumulatedSize": 4896,
+            "instancesAccumulated": 34,
+            "className": "LibraryExportElementImpl",
+            "libraryName": ""
+          },
+          {
             "bytesCurrent": 4832,
             "instancesCurrent": 151,
             "accumulatedSize": 4832,
             "instancesAccumulated": 151,
             "className": "_Part",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 4800,
+            "instancesCurrent": 150,
+            "accumulatedSize": 4800,
+            "instancesAccumulated": 150,
+            "className": "_ScheduledFile",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 4736,
+            "instancesCurrent": 74,
+            "accumulatedSize": 4736,
+            "instancesAccumulated": 74,
+            "className": "_RecordType",
+            "libraryName": "dart.core"
           },
           {
             "bytesCurrent": 4704,
@@ -9716,22 +9828,6 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 4544,
-            "instancesCurrent": 71,
-            "accumulatedSize": 4544,
-            "instancesAccumulated": 71,
-            "className": "_RecordType",
-            "libraryName": "dart.core"
-          },
-          {
-            "bytesCurrent": 4320,
-            "instancesCurrent": 90,
-            "accumulatedSize": 4320,
-            "instancesAccumulated": 90,
-            "className": "_Future",
-            "libraryName": "dart.async"
-          },
-          {
             "bytesCurrent": 4320,
             "instancesCurrent": 135,
             "accumulatedSize": 4320,
@@ -9744,7 +9840,7 @@
             "instancesCurrent": 135,
             "accumulatedSize": 4320,
             "instancesAccumulated": 135,
-            "className": "DirectiveUriWithUnitImpl",
+            "className": "UnlinkedPartOfNameDirective",
             "libraryName": ""
           },
           {
@@ -9760,30 +9856,14 @@
             "instancesCurrent": 135,
             "accumulatedSize": 4320,
             "instancesAccumulated": 135,
-            "className": "UnlinkedPartOfNameDirective",
+            "className": "DirectiveUriWithUnitImpl",
             "libraryName": ""
           },
           {
-            "bytesCurrent": 4240,
-            "instancesCurrent": 10,
-            "accumulatedSize": 4240,
-            "instancesAccumulated": 10,
-            "className": "_Uint64List",
-            "libraryName": "dart.typed_data"
-          },
-          {
-            "bytesCurrent": 4112,
-            "instancesCurrent": 25,
-            "accumulatedSize": 4112,
-            "instancesAccumulated": 25,
-            "className": "_SuspendState",
-            "libraryName": "dart.async"
-          },
-          {
-            "bytesCurrent": 4032,
-            "instancesCurrent": 126,
-            "accumulatedSize": 4032,
-            "instancesAccumulated": 126,
+            "bytesCurrent": 4160,
+            "instancesCurrent": 130,
+            "accumulatedSize": 4160,
+            "instancesAccumulated": 130,
             "className": "ResponseError",
             "libraryName": ""
           },
@@ -9797,18 +9877,26 @@
           },
           {
             "bytesCurrent": 3648,
-            "instancesCurrent": 57,
-            "accumulatedSize": 3648,
-            "instancesAccumulated": 57,
-            "className": "TypeAliasElementLinkedData",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 3648,
             "instancesCurrent": 38,
             "accumulatedSize": 3648,
             "instancesAccumulated": 38,
             "className": "AnnotationImpl",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 3648,
+            "instancesCurrent": 76,
+            "accumulatedSize": 3648,
+            "instancesAccumulated": 76,
+            "className": "_ArrayIterator",
+            "libraryName": "dart.core"
+          },
+          {
+            "bytesCurrent": 3648,
+            "instancesCurrent": 57,
+            "accumulatedSize": 3648,
+            "instancesAccumulated": 57,
+            "className": "TypeAliasElementLinkedData",
             "libraryName": ""
           },
           {
@@ -9828,11 +9916,27 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 3520,
+            "instancesCurrent": 110,
+            "accumulatedSize": 3520,
+            "instancesAccumulated": 110,
+            "className": "WhereIterator",
+            "libraryName": "dart._internal"
+          },
+          {
             "bytesCurrent": 3456,
             "instancesCurrent": 54,
             "accumulatedSize": 3456,
             "instancesAccumulated": 54,
             "className": "PrefixedIdentifierImpl",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 3232,
+            "instancesCurrent": 101,
+            "accumulatedSize": 3232,
+            "instancesAccumulated": 101,
+            "className": "_Entry",
             "libraryName": ""
           },
           {
@@ -9877,18 +9981,18 @@
           },
           {
             "bytesCurrent": 2960,
+            "instancesCurrent": 185,
+            "accumulatedSize": 2960,
+            "instancesAccumulated": 185,
+            "className": "Duration",
+            "libraryName": "dart.core"
+          },
+          {
+            "bytesCurrent": 2960,
             "instancesCurrent": 37,
             "accumulatedSize": 2960,
             "instancesAccumulated": 37,
             "className": "VariableDeclarationListImpl",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 2912,
-            "instancesCurrent": 91,
-            "accumulatedSize": 2912,
-            "instancesAccumulated": 91,
-            "className": "_Entry",
             "libraryName": ""
           },
           {
@@ -9898,6 +10002,14 @@
             "instancesAccumulated": 59,
             "className": "ExpressionStatementImpl",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 2592,
+            "instancesCurrent": 54,
+            "accumulatedSize": 2592,
+            "instancesAccumulated": 54,
+            "className": "_CompactIterable",
+            "libraryName": "dart.collection"
           },
           {
             "bytesCurrent": 2576,
@@ -9944,7 +10056,7 @@
             "instancesCurrent": 23,
             "accumulatedSize": 2208,
             "instancesAccumulated": 23,
-            "className": "IndexExpressionImpl",
+            "className": "AssignmentExpressionImpl",
             "libraryName": ""
           },
           {
@@ -9952,7 +10064,15 @@
             "instancesCurrent": 23,
             "accumulatedSize": 2208,
             "instancesAccumulated": 23,
-            "className": "AssignmentExpressionImpl",
+            "className": "IndexExpressionImpl",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 2208,
+            "instancesCurrent": 46,
+            "accumulatedSize": 2208,
+            "instancesAccumulated": 46,
+            "className": "Library",
             "libraryName": ""
           },
           {
@@ -9964,12 +10084,12 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 2112,
-            "instancesCurrent": 44,
-            "accumulatedSize": 2112,
-            "instancesAccumulated": 44,
-            "className": "ExperimentStatus",
-            "libraryName": ""
+            "bytesCurrent": 2160,
+            "instancesCurrent": 45,
+            "accumulatedSize": 2160,
+            "instancesAccumulated": 45,
+            "className": "_HashSetEntry",
+            "libraryName": "dart.collection"
           },
           {
             "bytesCurrent": 2112,
@@ -9980,20 +10100,20 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 1984,
-            "instancesCurrent": 31,
-            "accumulatedSize": 1984,
-            "instancesAccumulated": 31,
-            "className": "_FutureListener",
-            "libraryName": "dart.async"
+            "bytesCurrent": 2112,
+            "instancesCurrent": 44,
+            "accumulatedSize": 2112,
+            "instancesAccumulated": 44,
+            "className": "ExperimentStatus",
+            "libraryName": ""
           },
           {
-            "bytesCurrent": 1920,
-            "instancesCurrent": 40,
-            "accumulatedSize": 1920,
-            "instancesAccumulated": 40,
-            "className": "Library",
-            "libraryName": ""
+            "bytesCurrent": 2016,
+            "instancesCurrent": 14,
+            "accumulatedSize": 2016,
+            "instancesAccumulated": 14,
+            "className": "_CustomZone",
+            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 1920,
@@ -10016,8 +10136,32 @@
             "instancesCurrent": 38,
             "accumulatedSize": 1824,
             "instancesAccumulated": 38,
+            "className": "OperationPerformanceImpl",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1824,
+            "instancesCurrent": 38,
+            "accumulatedSize": 1824,
+            "instancesAccumulated": 38,
             "className": "ElementAnnotationImpl",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1824,
+            "instancesCurrent": 57,
+            "accumulatedSize": 1824,
+            "instancesAccumulated": 57,
+            "className": "_Utf8Encoder",
+            "libraryName": "dart.convert"
+          },
+          {
+            "bytesCurrent": 1824,
+            "instancesCurrent": 57,
+            "accumulatedSize": 1824,
+            "instancesAccumulated": 57,
+            "className": "CodeUnits",
+            "libraryName": "dart._internal"
           },
           {
             "bytesCurrent": 1776,
@@ -10036,20 +10180,20 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 1728,
-            "instancesCurrent": 36,
-            "accumulatedSize": 1728,
-            "instancesAccumulated": 36,
-            "className": "OperationPerformanceImpl",
-            "libraryName": ""
-          },
-          {
             "bytesCurrent": 1696,
             "instancesCurrent": 53,
             "accumulatedSize": 1696,
             "instancesAccumulated": 53,
             "className": "LocalScope",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1680,
+            "instancesCurrent": 21,
+            "accumulatedSize": 1680,
+            "instancesAccumulated": 21,
+            "className": "_ControllerSubscription",
+            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 1632,
@@ -10076,11 +10220,19 @@
             "libraryName": "_fe_analyzer_shared.messages.codes"
           },
           {
+            "bytesCurrent": 1568,
+            "instancesCurrent": 49,
+            "accumulatedSize": 1568,
+            "instancesAccumulated": 49,
+            "className": "LibraryChange",
+            "libraryName": ""
+          },
+          {
             "bytesCurrent": 1536,
-            "instancesCurrent": 32,
+            "instancesCurrent": 16,
             "accumulatedSize": 1536,
-            "instancesAccumulated": 32,
-            "className": "TypeArgumentListImpl",
+            "instancesAccumulated": 16,
+            "className": "SimpleFormalParameterImpl",
             "libraryName": ""
           },
           {
@@ -10104,7 +10256,31 @@
             "instancesCurrent": 32,
             "accumulatedSize": 1536,
             "instancesAccumulated": 32,
+            "className": "SummaryDataReader",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1536,
+            "instancesCurrent": 32,
+            "accumulatedSize": 1536,
+            "instancesAccumulated": 32,
+            "className": "_FbUint32List",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1536,
+            "instancesCurrent": 32,
+            "accumulatedSize": 1536,
+            "instancesAccumulated": 32,
             "className": "_ReferenceReader",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1536,
+            "instancesCurrent": 32,
+            "accumulatedSize": 1536,
+            "instancesAccumulated": 32,
+            "className": "TypeArgumentListImpl",
             "libraryName": ""
           },
           {
@@ -10116,22 +10292,6 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 1536,
-            "instancesCurrent": 16,
-            "accumulatedSize": 1536,
-            "instancesAccumulated": 16,
-            "className": "SimpleFormalParameterImpl",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1536,
-            "instancesCurrent": 32,
-            "accumulatedSize": 1536,
-            "instancesAccumulated": 32,
-            "className": "SummaryDataReader",
-            "libraryName": ""
-          },
-          {
             "bytesCurrent": 1504,
             "instancesCurrent": 47,
             "accumulatedSize": 1504,
@@ -10140,20 +10300,20 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 1504,
+            "instancesCurrent": 47,
+            "accumulatedSize": 1504,
+            "instancesAccumulated": 47,
+            "className": "_SendPort",
+            "libraryName": "dart.isolate"
+          },
+          {
             "bytesCurrent": 1472,
             "instancesCurrent": 46,
             "accumulatedSize": 1472,
             "instancesAccumulated": 46,
             "className": "_Hierarchy",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1440,
-            "instancesCurrent": 45,
-            "accumulatedSize": 1440,
-            "instancesAccumulated": 45,
-            "className": "_DelayedData",
-            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 1440,
@@ -10180,34 +10340,34 @@
             "libraryName": "dart.collection"
           },
           {
-            "bytesCurrent": 1376,
-            "instancesCurrent": 43,
-            "accumulatedSize": 1376,
-            "instancesAccumulated": 43,
-            "className": "LibraryChange",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1296,
-            "instancesCurrent": 9,
-            "accumulatedSize": 1296,
-            "instancesAccumulated": 9,
-            "className": "_CustomZone",
+            "bytesCurrent": 1360,
+            "instancesCurrent": 17,
+            "accumulatedSize": 1360,
+            "instancesAccumulated": 17,
+            "className": "_SyncStreamController",
             "libraryName": "dart.async"
           },
           {
-            "bytesCurrent": 1280,
-            "instancesCurrent": 16,
-            "accumulatedSize": 1280,
-            "instancesAccumulated": 16,
-            "className": "_ControllerSubscription",
-            "libraryName": "dart.async"
+            "bytesCurrent": 1344,
+            "instancesCurrent": 28,
+            "accumulatedSize": 1344,
+            "instancesAccumulated": 28,
+            "className": "FileSystemModifyEvent",
+            "libraryName": "dart.io"
           },
           {
-            "bytesCurrent": 1280,
-            "instancesCurrent": 40,
-            "accumulatedSize": 1280,
-            "instancesAccumulated": 40,
+            "bytesCurrent": 1344,
+            "instancesCurrent": 42,
+            "accumulatedSize": 1344,
+            "instancesAccumulated": 42,
+            "className": "FileSystemCreateEvent",
+            "libraryName": "dart.io"
+          },
+          {
+            "bytesCurrent": 1344,
+            "instancesCurrent": 42,
+            "accumulatedSize": 1344,
+            "instancesAccumulated": 42,
             "className": "Stopwatch",
             "libraryName": "dart.core"
           },
@@ -10237,18 +10397,18 @@
           },
           {
             "bytesCurrent": 1216,
-            "instancesCurrent": 19,
-            "accumulatedSize": 1216,
-            "instancesAccumulated": 19,
-            "className": "BodyInferenceContext",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1216,
             "instancesCurrent": 38,
             "accumulatedSize": 1216,
             "instancesAccumulated": 38,
             "className": "PrefixScopeLookupResult",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1216,
+            "instancesCurrent": 19,
+            "accumulatedSize": 1216,
+            "instancesAccumulated": 19,
+            "className": "BodyInferenceContext",
             "libraryName": ""
           },
           {
@@ -10261,14 +10421,6 @@
           },
           {
             "bytesCurrent": 1152,
-            "instancesCurrent": 9,
-            "accumulatedSize": 1152,
-            "instancesAccumulated": 9,
-            "className": "PrefixElementImpl",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1152,
             "instancesCurrent": 18,
             "accumulatedSize": 1152,
             "instancesAccumulated": 18,
@@ -10276,11 +10428,11 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 1120,
-            "instancesCurrent": 14,
-            "accumulatedSize": 1120,
-            "instancesAccumulated": 14,
-            "className": "DocDirectiveType",
+            "bytesCurrent": 1152,
+            "instancesCurrent": 9,
+            "accumulatedSize": 1152,
+            "instancesAccumulated": 9,
+            "className": "PrefixElementImpl",
             "libraryName": ""
           },
           {
@@ -10292,19 +10444,19 @@
             "libraryName": "_fe_analyzer_shared.scanner.keywords"
           },
           {
+            "bytesCurrent": 1120,
+            "instancesCurrent": 14,
+            "accumulatedSize": 1120,
+            "instancesAccumulated": 14,
+            "className": "DocDirectiveType",
+            "libraryName": ""
+          },
+          {
             "bytesCurrent": 1104,
             "instancesCurrent": 23,
             "accumulatedSize": 1104,
             "instancesAccumulated": 23,
             "className": "InterpolationStringImpl",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1088,
-            "instancesCurrent": 68,
-            "accumulatedSize": 1088,
-            "instancesAccumulated": 68,
-            "className": "HighlightRegionType",
             "libraryName": ""
           },
           {
@@ -10316,12 +10468,28 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 1088,
+            "instancesCurrent": 68,
+            "accumulatedSize": 1088,
+            "instancesAccumulated": 68,
+            "className": "HighlightRegionType",
+            "libraryName": ""
+          },
+          {
             "bytesCurrent": 1056,
             "instancesCurrent": 6,
             "accumulatedSize": 1056,
             "instancesAccumulated": 6,
             "className": "ParameterElementImpl_ofImplicitSetter",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1056,
+            "instancesCurrent": 22,
+            "accumulatedSize": 1056,
+            "instancesAccumulated": 22,
+            "className": "LocalVarDescriptors",
+            "libraryName": null
           },
           {
             "bytesCurrent": 1056,
@@ -10340,26 +10508,10 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 1056,
-            "instancesCurrent": 22,
-            "accumulatedSize": 1056,
-            "instancesAccumulated": 22,
-            "className": "LocalVarDescriptors",
-            "libraryName": null
-          },
-          {
-            "bytesCurrent": 1024,
-            "instancesCurrent": 4,
-            "accumulatedSize": 1024,
-            "instancesAccumulated": 4,
-            "className": "EnumElementImpl",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1024,
-            "instancesCurrent": 64,
-            "accumulatedSize": 1024,
-            "instancesAccumulated": 64,
+            "bytesCurrent": 1040,
+            "instancesCurrent": 65,
+            "accumulatedSize": 1040,
+            "instancesAccumulated": 65,
             "className": "Method",
             "libraryName": ""
           },
@@ -10370,6 +10522,14 @@
             "instancesAccumulated": 32,
             "className": "_Float64List",
             "libraryName": "dart.typed_data"
+          },
+          {
+            "bytesCurrent": 1024,
+            "instancesCurrent": 4,
+            "accumulatedSize": 1024,
+            "instancesAccumulated": 4,
+            "className": "EnumElementImpl",
+            "libraryName": ""
           }
         ]
       },
@@ -10379,48 +10539,48 @@
         "name": "EvictingFileByteStore._cacheCleanUpFunction",
         "memory": {
           "type": "MemoryUsage",
-          "heapUsage": 279161216,
-          "heapCapacity": 285540352,
-          "externalUsage": 21328
+          "heapUsage": 283157024,
+          "heapCapacity": 289210368,
+          "externalUsage": 22560
         },
         "allocationProfile": [
           {
-            "bytesCurrent": 99041120,
-            "instancesCurrent": 919735,
-            "accumulatedSize": 99041120,
-            "instancesAccumulated": 919735,
+            "bytesCurrent": 99610720,
+            "instancesCurrent": 926809,
+            "accumulatedSize": 99610720,
+            "instancesAccumulated": 926809,
             "className": "_List",
             "libraryName": "dart.core"
           },
           {
-            "bytesCurrent": 36638080,
-            "instancesCurrent": 253358,
-            "accumulatedSize": 36638080,
-            "instancesAccumulated": 253358,
+            "bytesCurrent": 36686816,
+            "instancesCurrent": 253586,
+            "accumulatedSize": 36686816,
+            "instancesAccumulated": 253586,
             "className": "_Uint8List",
             "libraryName": "dart.typed_data"
           },
           {
-            "bytesCurrent": 36247824,
-            "instancesCurrent": 374285,
-            "accumulatedSize": 36247824,
-            "instancesAccumulated": 374285,
+            "bytesCurrent": 36455968,
+            "instancesCurrent": 379498,
+            "accumulatedSize": 36455968,
+            "instancesAccumulated": 379498,
             "className": "_OneByteString",
             "libraryName": "dart.core"
           },
           {
-            "bytesCurrent": 19887648,
-            "instancesCurrent": 31584,
-            "accumulatedSize": 19887648,
-            "instancesAccumulated": 31584,
+            "bytesCurrent": 19987840,
+            "instancesCurrent": 31759,
+            "accumulatedSize": 19987840,
+            "instancesAccumulated": 31759,
             "className": "Instructions",
             "libraryName": null
           },
           {
-            "bytesCurrent": 19490496,
-            "instancesCurrent": 609078,
-            "accumulatedSize": 19490496,
-            "instancesAccumulated": 609078,
+            "bytesCurrent": 19496032,
+            "instancesCurrent": 609251,
+            "accumulatedSize": 19496032,
+            "instancesAccumulated": 609251,
             "className": "DateTime",
             "libraryName": "dart.core"
           },
@@ -10433,98 +10593,98 @@
             "libraryName": "dart.io"
           },
           {
-            "bytesCurrent": 8520224,
-            "instancesCurrent": 15788,
-            "accumulatedSize": 8520224,
-            "instancesAccumulated": 15788,
+            "bytesCurrent": 8573632,
+            "instancesCurrent": 16007,
+            "accumulatedSize": 8573632,
+            "instancesAccumulated": 16007,
             "className": "_Uint32List",
             "libraryName": "dart.typed_data"
           },
           {
-            "bytesCurrent": 7774720,
-            "instancesCurrent": 121480,
-            "accumulatedSize": 7774720,
-            "instancesAccumulated": 121480,
+            "bytesCurrent": 7827712,
+            "instancesCurrent": 122308,
+            "accumulatedSize": 7827712,
+            "instancesAccumulated": 122308,
             "className": "ICData",
             "libraryName": null
           },
           {
-            "bytesCurrent": 7555712,
-            "instancesCurrent": 59029,
-            "accumulatedSize": 7555712,
-            "instancesAccumulated": 59029,
+            "bytesCurrent": 7568640,
+            "instancesCurrent": 59130,
+            "accumulatedSize": 7568640,
+            "instancesAccumulated": 59130,
             "className": "Function",
             "libraryName": null
           },
           {
-            "bytesCurrent": 6510784,
-            "instancesCurrent": 203462,
-            "accumulatedSize": 6510784,
-            "instancesAccumulated": 203462,
+            "bytesCurrent": 6511648,
+            "instancesCurrent": 203489,
+            "accumulatedSize": 6511648,
+            "instancesAccumulated": 203489,
             "className": "_File",
             "libraryName": "dart.io"
           },
           {
-            "bytesCurrent": 5538368,
-            "instancesCurrent": 31468,
-            "accumulatedSize": 5538368,
-            "instancesAccumulated": 31468,
+            "bytesCurrent": 5569168,
+            "instancesCurrent": 31643,
+            "accumulatedSize": 5569168,
+            "instancesAccumulated": 31643,
             "className": "Code",
             "libraryName": null
           },
           {
-            "bytesCurrent": 4665200,
-            "instancesCurrent": 26693,
-            "accumulatedSize": 4665200,
-            "instancesAccumulated": 26693,
+            "bytesCurrent": 4690400,
+            "instancesCurrent": 26844,
+            "accumulatedSize": 4690400,
+            "instancesAccumulated": 26844,
             "className": "ObjectPool",
             "libraryName": null
           },
           {
-            "bytesCurrent": 4587120,
-            "instancesCurrent": 22046,
-            "accumulatedSize": 4587120,
-            "instancesAccumulated": 22046,
+            "bytesCurrent": 4615824,
+            "instancesCurrent": 22196,
+            "accumulatedSize": 4615824,
+            "instancesAccumulated": 22196,
             "className": "PcDescriptors",
             "libraryName": null
           },
           {
-            "bytesCurrent": 3943920,
-            "instancesCurrent": 16433,
-            "accumulatedSize": 3943920,
-            "instancesAccumulated": 16433,
+            "bytesCurrent": 3954480,
+            "instancesCurrent": 16477,
+            "accumulatedSize": 3954480,
+            "instancesAccumulated": 16477,
             "className": "Declaration",
             "libraryName": ""
           },
           {
-            "bytesCurrent": 3678608,
-            "instancesCurrent": 45988,
-            "accumulatedSize": 3678608,
-            "instancesAccumulated": 45988,
+            "bytesCurrent": 3678768,
+            "instancesCurrent": 45993,
+            "accumulatedSize": 3678768,
+            "instancesAccumulated": 45993,
             "className": "_Int64List",
             "libraryName": "dart.typed_data"
           },
           {
-            "bytesCurrent": 3513808,
-            "instancesCurrent": 22782,
-            "accumulatedSize": 3513808,
-            "instancesAccumulated": 22782,
+            "bytesCurrent": 3531600,
+            "instancesCurrent": 22934,
+            "accumulatedSize": 3531600,
+            "instancesAccumulated": 22934,
             "className": "CodeSourceMap",
             "libraryName": null
           },
           {
-            "bytesCurrent": 3153680,
-            "instancesCurrent": 39421,
-            "accumulatedSize": 3153680,
-            "instancesAccumulated": 39421,
+            "bytesCurrent": 3164640,
+            "instancesCurrent": 39558,
+            "accumulatedSize": 3164640,
+            "instancesAccumulated": 39558,
             "className": "_FunctionType",
             "libraryName": "dart.core"
           },
           {
-            "bytesCurrent": 2103264,
-            "instancesCurrent": 65727,
-            "accumulatedSize": 2103264,
-            "instancesAccumulated": 65727,
+            "bytesCurrent": 2220928,
+            "instancesCurrent": 69404,
+            "accumulatedSize": 2220928,
+            "instancesAccumulated": 69404,
             "className": "_GrowableList",
             "libraryName": "dart.core"
           },
@@ -10537,10 +10697,10 @@
             "libraryName": null
           },
           {
-            "bytesCurrent": 1854000,
-            "instancesCurrent": 3137,
-            "accumulatedSize": 1854000,
-            "instancesAccumulated": 3137,
+            "bytesCurrent": 1855456,
+            "instancesCurrent": 3145,
+            "accumulatedSize": 1855456,
+            "instancesAccumulated": 3145,
             "className": "WeakArray",
             "libraryName": null
           },
@@ -10553,20 +10713,44 @@
             "libraryName": "dart.core"
           },
           {
-            "bytesCurrent": 1458144,
-            "instancesCurrent": 15189,
-            "accumulatedSize": 1458144,
-            "instancesAccumulated": 15189,
+            "bytesCurrent": 1462944,
+            "instancesCurrent": 15239,
+            "accumulatedSize": 1462944,
+            "instancesAccumulated": 15239,
             "className": "Field",
             "libraryName": null
           },
           {
-            "bytesCurrent": 1135648,
-            "instancesCurrent": 2358,
-            "accumulatedSize": 1135648,
-            "instancesAccumulated": 2358,
+            "bytesCurrent": 1137696,
+            "instancesCurrent": 2362,
+            "accumulatedSize": 1137696,
+            "instancesAccumulated": 2362,
             "className": "_Uint16List",
             "libraryName": "dart.typed_data"
+          },
+          {
+            "bytesCurrent": 1120064,
+            "instancesCurrent": 17501,
+            "accumulatedSize": 1120064,
+            "instancesAccumulated": 17501,
+            "className": "_Closure",
+            "libraryName": "dart.core"
+          },
+          {
+            "bytesCurrent": 1016512,
+            "instancesCurrent": 15883,
+            "accumulatedSize": 1016512,
+            "instancesAccumulated": 15883,
+            "className": "_TypeParameter",
+            "libraryName": "dart.core"
+          },
+          {
+            "bytesCurrent": 782912,
+            "instancesCurrent": 17817,
+            "accumulatedSize": 782912,
+            "instancesAccumulated": 17817,
+            "className": "Context",
+            "libraryName": null
           },
           {
             "bytesCurrent": 640000,
@@ -10577,6 +10761,14 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 638496,
+            "instancesCurrent": 13302,
+            "accumulatedSize": 638496,
+            "instancesAccumulated": 13302,
+            "className": "_Type",
+            "libraryName": "dart.core"
+          },
+          {
             "bytesCurrent": 600720,
             "instancesCurrent": 12515,
             "accumulatedSize": 600720,
@@ -10585,26 +10777,10 @@
             "libraryName": null
           },
           {
-            "bytesCurrent": 567120,
-            "instancesCurrent": 11815,
-            "accumulatedSize": 567120,
-            "instancesAccumulated": 11815,
-            "className": "_Type",
-            "libraryName": "dart.core"
-          },
-          {
-            "bytesCurrent": 474688,
-            "instancesCurrent": 7417,
-            "accumulatedSize": 474688,
-            "instancesAccumulated": 7417,
-            "className": "_Closure",
-            "libraryName": "dart.core"
-          },
-          {
-            "bytesCurrent": 368944,
-            "instancesCurrent": 3072,
-            "accumulatedSize": 368944,
-            "instancesAccumulated": 3072,
+            "bytesCurrent": 372800,
+            "instancesCurrent": 3133,
+            "accumulatedSize": 372800,
+            "instancesAccumulated": 3133,
             "className": "_ImmutableList",
             "libraryName": "dart.core"
           },
@@ -10633,6 +10809,14 @@
             "libraryName": null
           },
           {
+            "bytesCurrent": 286272,
+            "instancesCurrent": 5308,
+            "accumulatedSize": 286272,
+            "instancesAccumulated": 5308,
+            "className": "TypeArguments",
+            "libraryName": null
+          },
+          {
             "bytesCurrent": 283264,
             "instancesCurrent": 8852,
             "accumulatedSize": 283264,
@@ -10641,28 +10825,12 @@
             "libraryName": "_fe_analyzer_shared.scanner.string_canonicalizer"
           },
           {
-            "bytesCurrent": 256192,
-            "instancesCurrent": 4737,
-            "accumulatedSize": 256192,
-            "instancesAccumulated": 4737,
-            "className": "TypeArguments",
-            "libraryName": null
-          },
-          {
             "bytesCurrent": 249936,
             "instancesCurrent": 5207,
             "accumulatedSize": 249936,
             "instancesAccumulated": 5207,
             "className": "_InfoFormalParameter",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 245680,
-            "instancesCurrent": 5807,
-            "accumulatedSize": 245680,
-            "instancesAccumulated": 5807,
-            "className": "Context",
-            "libraryName": null
           },
           {
             "bytesCurrent": 231296,
@@ -10681,26 +10849,26 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 224768,
-            "instancesCurrent": 3512,
-            "accumulatedSize": 224768,
-            "instancesAccumulated": 3512,
+            "bytesCurrent": 228800,
+            "instancesCurrent": 3575,
+            "accumulatedSize": 228800,
+            "instancesAccumulated": 3575,
             "className": "_Map",
             "libraryName": "dart.collection"
           },
           {
-            "bytesCurrent": 220896,
-            "instancesCurrent": 1716,
-            "accumulatedSize": 220896,
-            "instancesAccumulated": 1716,
+            "bytesCurrent": 224704,
+            "instancesCurrent": 1744,
+            "accumulatedSize": 224704,
+            "instancesAccumulated": 1744,
             "className": "ContextScope",
             "libraryName": null
           },
           {
-            "bytesCurrent": 217856,
-            "instancesCurrent": 2361,
-            "accumulatedSize": 217856,
-            "instancesAccumulated": 2361,
+            "bytesCurrent": 218112,
+            "instancesCurrent": 2367,
+            "accumulatedSize": 218112,
+            "instancesAccumulated": 2367,
             "className": "CompressedStackMaps",
             "libraryName": null
           },
@@ -10713,20 +10881,20 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 198784,
-            "instancesCurrent": 3106,
-            "accumulatedSize": 198784,
-            "instancesAccumulated": 3106,
-            "className": "_TypeParameter",
-            "libraryName": "dart.core"
-          },
-          {
             "bytesCurrent": 173200,
             "instancesCurrent": 2165,
             "accumulatedSize": 173200,
             "instancesAccumulated": 2165,
             "className": "Script",
             "libraryName": null
+          },
+          {
+            "bytesCurrent": 166992,
+            "instancesCurrent": 3479,
+            "accumulatedSize": 166992,
+            "instancesAccumulated": 3479,
+            "className": "_Uint8ArrayView",
+            "libraryName": "dart.typed_data"
           },
           {
             "bytesCurrent": 138048,
@@ -10737,12 +10905,12 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 131712,
-            "instancesCurrent": 2744,
-            "accumulatedSize": 131712,
-            "instancesAccumulated": 2744,
-            "className": "_Uint8ArrayView",
-            "libraryName": "dart.typed_data"
+            "bytesCurrent": 137408,
+            "instancesCurrent": 2147,
+            "accumulatedSize": 137408,
+            "instancesAccumulated": 2147,
+            "className": "_Set",
+            "libraryName": "dart.collection"
           },
           {
             "bytesCurrent": 129408,
@@ -10761,18 +10929,18 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 113216,
-            "instancesCurrent": 1769,
-            "accumulatedSize": 113216,
-            "instancesAccumulated": 1769,
-            "className": "_Set",
-            "libraryName": "dart.collection"
+            "bytesCurrent": 123504,
+            "instancesCurrent": 2573,
+            "accumulatedSize": 123504,
+            "instancesAccumulated": 2573,
+            "className": "_Future",
+            "libraryName": "dart.async"
           },
           {
-            "bytesCurrent": 108960,
-            "instancesCurrent": 2270,
-            "accumulatedSize": 108960,
-            "instancesAccumulated": 2270,
+            "bytesCurrent": 110400,
+            "instancesCurrent": 2300,
+            "accumulatedSize": 110400,
+            "instancesAccumulated": 2300,
             "className": "ClosureData",
             "libraryName": null
           },
@@ -10801,18 +10969,18 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 90480,
-            "instancesCurrent": 1885,
-            "accumulatedSize": 90480,
-            "instancesAccumulated": 1885,
+            "bytesCurrent": 90720,
+            "instancesCurrent": 1890,
+            "accumulatedSize": 90720,
+            "instancesAccumulated": 1890,
             "className": "TypeParameters",
             "libraryName": null
           },
           {
-            "bytesCurrent": 85728,
-            "instancesCurrent": 1786,
-            "accumulatedSize": 85728,
-            "instancesAccumulated": 1786,
+            "bytesCurrent": 88032,
+            "instancesCurrent": 1834,
+            "accumulatedSize": 88032,
+            "instancesAccumulated": 1834,
             "className": "_HashMapEntry",
             "libraryName": "dart.collection"
           },
@@ -10831,6 +10999,30 @@
             "instancesAccumulated": 386,
             "className": "PropertyAccessorElementImpl",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 73920,
+            "instancesCurrent": 1540,
+            "accumulatedSize": 73920,
+            "instancesAccumulated": 1540,
+            "className": "ListIterator",
+            "libraryName": "dart._internal"
+          },
+          {
+            "bytesCurrent": 70656,
+            "instancesCurrent": 1104,
+            "accumulatedSize": 70656,
+            "instancesAccumulated": 1104,
+            "className": "_Timer",
+            "libraryName": "dart.isolate"
+          },
+          {
+            "bytesCurrent": 69440,
+            "instancesCurrent": 496,
+            "accumulatedSize": 69440,
+            "instancesAccumulated": 496,
+            "className": "_SuspendState",
+            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 65680,
@@ -10873,20 +11065,20 @@
             "libraryName": "dart._internal"
           },
           {
+            "bytesCurrent": 53952,
+            "instancesCurrent": 843,
+            "accumulatedSize": 53952,
+            "instancesAccumulated": 843,
+            "className": "StringBuffer",
+            "libraryName": "dart.core"
+          },
+          {
             "bytesCurrent": 53600,
             "instancesCurrent": 670,
             "accumulatedSize": 53600,
             "instancesAccumulated": 670,
             "className": "ClassElementLinkedData",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 49664,
-            "instancesCurrent": 776,
-            "accumulatedSize": 49664,
-            "instancesAccumulated": 776,
-            "className": "StringBuffer",
-            "libraryName": "dart.core"
           },
           {
             "bytesCurrent": 49088,
@@ -10985,12 +11177,28 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 33888,
+            "instancesCurrent": 1059,
+            "accumulatedSize": 33888,
+            "instancesAccumulated": 1059,
+            "className": "_AsyncCallbackEntry",
+            "libraryName": "dart.async"
+          },
+          {
             "bytesCurrent": 32576,
             "instancesCurrent": 509,
             "accumulatedSize": 32576,
             "instancesAccumulated": 509,
             "className": "FieldElementLinkedData",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 31680,
+            "instancesCurrent": 396,
+            "accumulatedSize": 31680,
+            "instancesAccumulated": 396,
+            "className": "_CompactIterator",
+            "libraryName": "dart.collection"
           },
           {
             "bytesCurrent": 31152,
@@ -11007,6 +11215,22 @@
             "instancesAccumulated": 149,
             "className": "ConstTopLevelVariableElementImpl",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 29856,
+            "instancesCurrent": 622,
+            "accumulatedSize": 29856,
+            "instancesAccumulated": 622,
+            "className": "ParsedPath",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 28672,
+            "instancesCurrent": 448,
+            "accumulatedSize": 28672,
+            "instancesAccumulated": 448,
+            "className": "_FutureListener",
+            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 28176,
@@ -11049,10 +11273,10 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 23712,
-            "instancesCurrent": 741,
-            "accumulatedSize": 23712,
-            "instancesAccumulated": 741,
+            "bytesCurrent": 23776,
+            "instancesCurrent": 743,
+            "accumulatedSize": 23776,
+            "instancesAccumulated": 743,
             "className": "SubtypeTestCache",
             "libraryName": null
           },
@@ -11089,10 +11313,10 @@
             "libraryName": null
           },
           {
-            "bytesCurrent": 20384,
-            "instancesCurrent": 423,
-            "accumulatedSize": 20384,
-            "instancesAccumulated": 423,
+            "bytesCurrent": 20480,
+            "instancesCurrent": 425,
+            "accumulatedSize": 20480,
+            "instancesAccumulated": 425,
             "className": "ExceptionHandlers",
             "libraryName": null
           },
@@ -11105,10 +11329,10 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 19648,
-            "instancesCurrent": 614,
-            "accumulatedSize": 19648,
-            "instancesAccumulated": 614,
+            "bytesCurrent": 19776,
+            "instancesCurrent": 618,
+            "accumulatedSize": 19776,
+            "instancesAccumulated": 618,
             "className": "LineInfo",
             "libraryName": ""
           },
@@ -11201,18 +11425,10 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 15504,
-            "instancesCurrent": 323,
-            "accumulatedSize": 15504,
-            "instancesAccumulated": 323,
-            "className": "ListIterator",
-            "libraryName": "dart._internal"
-          },
-          {
-            "bytesCurrent": 14944,
-            "instancesCurrent": 467,
-            "accumulatedSize": 14944,
-            "instancesAccumulated": 467,
+            "bytesCurrent": 15680,
+            "instancesCurrent": 490,
+            "accumulatedSize": 15680,
+            "instancesAccumulated": 490,
             "className": "_Directory",
             "libraryName": "dart.io"
           },
@@ -11225,18 +11441,18 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 14112,
-            "instancesCurrent": 441,
-            "accumulatedSize": 14112,
-            "instancesAccumulated": 441,
+            "bytesCurrent": 14240,
+            "instancesCurrent": 445,
+            "accumulatedSize": 14240,
+            "instancesAccumulated": 445,
             "className": "_PhysicalFile",
             "libraryName": ""
           },
           {
-            "bytesCurrent": 14112,
-            "instancesCurrent": 441,
-            "accumulatedSize": 14112,
-            "instancesAccumulated": 441,
+            "bytesCurrent": 14240,
+            "instancesCurrent": 445,
+            "accumulatedSize": 14240,
+            "instancesAccumulated": 445,
             "className": "_OverlayFile",
             "libraryName": ""
           },
@@ -11265,6 +11481,14 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 13024,
+            "instancesCurrent": 407,
+            "accumulatedSize": 13024,
+            "instancesAccumulated": 407,
+            "className": "MappedListIterable",
+            "libraryName": "dart._internal"
+          },
+          {
             "bytesCurrent": 12720,
             "instancesCurrent": 265,
             "accumulatedSize": 12720,
@@ -11279,14 +11503,6 @@
             "instancesAccumulated": 38,
             "className": "LibraryElementImpl",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 11968,
-            "instancesCurrent": 374,
-            "accumulatedSize": 11968,
-            "instancesAccumulated": 374,
-            "className": "MappedListIterable",
-            "libraryName": "dart._internal"
           },
           {
             "bytesCurrent": 11840,
@@ -11353,6 +11569,14 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 9856,
+            "instancesCurrent": 44,
+            "accumulatedSize": 9856,
+            "instancesAccumulated": 44,
+            "className": "_AvailableDeclarationImpl",
+            "libraryName": ""
+          },
+          {
             "bytesCurrent": 9648,
             "instancesCurrent": 603,
             "accumulatedSize": 9648,
@@ -11361,19 +11585,19 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 9472,
+            "instancesCurrent": 296,
+            "accumulatedSize": 9472,
+            "instancesAccumulated": 296,
+            "className": "WhereIterable",
+            "libraryName": "dart._internal"
+          },
+          {
             "bytesCurrent": 9408,
             "instancesCurrent": 49,
             "accumulatedSize": 9408,
             "instancesAccumulated": 49,
             "className": "DefaultFieldFormalParameterElementImpl",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 9264,
-            "instancesCurrent": 193,
-            "accumulatedSize": 9264,
-            "instancesAccumulated": 193,
-            "className": "ParsedPath",
             "libraryName": ""
           },
           {
@@ -11418,14 +11642,6 @@
           },
           {
             "bytesCurrent": 8512,
-            "instancesCurrent": 266,
-            "accumulatedSize": 8512,
-            "instancesAccumulated": 266,
-            "className": "ExportedReferenceExported",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 8512,
             "instancesCurrent": 133,
             "accumulatedSize": 8512,
             "instancesAccumulated": 133,
@@ -11433,11 +11649,11 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 8496,
-            "instancesCurrent": 177,
-            "accumulatedSize": 8496,
-            "instancesAccumulated": 177,
-            "className": "AnalysisDriverUnlinkedUnit",
+            "bytesCurrent": 8512,
+            "instancesCurrent": 266,
+            "accumulatedSize": 8512,
+            "instancesAccumulated": 266,
+            "className": "ExportedReferenceExported",
             "libraryName": ""
           },
           {
@@ -11449,10 +11665,18 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 8352,
-            "instancesCurrent": 174,
-            "accumulatedSize": 8352,
-            "instancesAccumulated": 174,
+            "bytesCurrent": 8496,
+            "instancesCurrent": 177,
+            "accumulatedSize": 8496,
+            "instancesAccumulated": 177,
+            "className": "AnalysisDriverUnlinkedUnit",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 8448,
+            "instancesCurrent": 176,
+            "accumulatedSize": 8448,
+            "instancesAccumulated": 176,
             "className": "Either2",
             "libraryName": ""
           },
@@ -11489,12 +11713,28 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 7360,
+            "instancesCurrent": 230,
+            "accumulatedSize": 7360,
+            "instancesAccumulated": 230,
+            "className": "_DelayedData",
+            "libraryName": "dart.async"
+          },
+          {
             "bytesCurrent": 7280,
             "instancesCurrent": 91,
             "accumulatedSize": 7280,
             "instancesAccumulated": 91,
             "className": "NamedTypeImpl",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 7264,
+            "instancesCurrent": 227,
+            "accumulatedSize": 7264,
+            "instancesAccumulated": 227,
+            "className": "_AsyncCompleter",
+            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 7200,
@@ -11506,26 +11746,18 @@
           },
           {
             "bytesCurrent": 7008,
-            "instancesCurrent": 146,
+            "instancesCurrent": 219,
             "accumulatedSize": 7008,
-            "instancesAccumulated": 146,
-            "className": "PropertyAccessorMember",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 6944,
-            "instancesCurrent": 217,
-            "accumulatedSize": 6944,
-            "instancesAccumulated": 217,
+            "instancesAccumulated": 219,
             "className": "pragma",
             "libraryName": "dart.core"
           },
           {
-            "bytesCurrent": 6688,
-            "instancesCurrent": 209,
-            "accumulatedSize": 6688,
-            "instancesAccumulated": 209,
-            "className": "_PhysicalFolder",
+            "bytesCurrent": 7008,
+            "instancesCurrent": 146,
+            "accumulatedSize": 7008,
+            "instancesAccumulated": 146,
+            "className": "PropertyAccessorMember",
             "libraryName": ""
           },
           {
@@ -11537,11 +11769,35 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 6688,
+            "instancesCurrent": 209,
+            "accumulatedSize": 6688,
+            "instancesAccumulated": 209,
+            "className": "_PhysicalFolder",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 6656,
+            "instancesCurrent": 104,
+            "accumulatedSize": 6656,
+            "instancesAccumulated": 104,
+            "className": "_FbGenericList",
+            "libraryName": ""
+          },
+          {
             "bytesCurrent": 6480,
             "instancesCurrent": 135,
             "accumulatedSize": 6480,
             "instancesAccumulated": 135,
             "className": "PartWithFile",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 6432,
+            "instancesCurrent": 134,
+            "accumulatedSize": 6432,
+            "instancesAccumulated": 134,
+            "className": "ErrorOr",
             "libraryName": ""
           },
           {
@@ -11561,14 +11817,6 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 6192,
-            "instancesCurrent": 129,
-            "accumulatedSize": 6192,
-            "instancesAccumulated": 129,
-            "className": "ErrorOr",
-            "libraryName": ""
-          },
-          {
             "bytesCurrent": 6144,
             "instancesCurrent": 192,
             "accumulatedSize": 6144,
@@ -11578,27 +11826,19 @@
           },
           {
             "bytesCurrent": 5984,
+            "instancesCurrent": 15,
+            "accumulatedSize": 5984,
+            "instancesAccumulated": 15,
+            "className": "_Uint64List",
+            "libraryName": "dart.typed_data"
+          },
+          {
+            "bytesCurrent": 5984,
             "instancesCurrent": 187,
             "accumulatedSize": 5984,
             "instancesAccumulated": 187,
             "className": "Range",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 5952,
-            "instancesCurrent": 186,
-            "accumulatedSize": 5952,
-            "instancesAccumulated": 186,
-            "className": "WhereIterable",
-            "libraryName": "dart._internal"
-          },
-          {
-            "bytesCurrent": 5952,
-            "instancesCurrent": 186,
-            "accumulatedSize": 5952,
-            "instancesAccumulated": 186,
-            "className": "WhereTypeIterator",
-            "libraryName": "dart._internal"
           },
           {
             "bytesCurrent": 5952,
@@ -11625,6 +11865,14 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 5952,
+            "instancesCurrent": 186,
+            "accumulatedSize": 5952,
+            "instancesAccumulated": 186,
+            "className": "WhereTypeIterator",
+            "libraryName": "dart._internal"
+          },
+          {
             "bytesCurrent": 5760,
             "instancesCurrent": 30,
             "accumulatedSize": 5760,
@@ -11637,7 +11885,7 @@
             "instancesCurrent": 177,
             "accumulatedSize": 5664,
             "instancesAccumulated": 177,
-            "className": "FileUriProperties",
+            "className": "_UnlinkedUnitStoreData",
             "libraryName": ""
           },
           {
@@ -11645,7 +11893,7 @@
             "instancesCurrent": 177,
             "accumulatedSize": 5664,
             "instancesAccumulated": 177,
-            "className": "_UnlinkedUnitStoreData",
+            "className": "FileUriProperties",
             "libraryName": ""
           },
           {
@@ -11690,11 +11938,11 @@
           },
           {
             "bytesCurrent": 4896,
-            "instancesCurrent": 34,
+            "instancesCurrent": 306,
             "accumulatedSize": 4896,
-            "instancesAccumulated": 34,
-            "className": "LibraryExportElementImpl",
-            "libraryName": ""
+            "instancesAccumulated": 306,
+            "className": "_ByteBuffer",
+            "libraryName": "dart.typed_data"
           },
           {
             "bytesCurrent": 4896,
@@ -11705,12 +11953,36 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 4896,
+            "instancesCurrent": 34,
+            "accumulatedSize": 4896,
+            "instancesAccumulated": 34,
+            "className": "LibraryExportElementImpl",
+            "libraryName": ""
+          },
+          {
             "bytesCurrent": 4832,
             "instancesCurrent": 151,
             "accumulatedSize": 4832,
             "instancesAccumulated": 151,
             "className": "_Part",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 4800,
+            "instancesCurrent": 150,
+            "accumulatedSize": 4800,
+            "instancesAccumulated": 150,
+            "className": "_ScheduledFile",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 4736,
+            "instancesCurrent": 74,
+            "accumulatedSize": 4736,
+            "instancesAccumulated": 74,
+            "className": "_RecordType",
+            "libraryName": "dart.core"
           },
           {
             "bytesCurrent": 4704,
@@ -11729,22 +12001,6 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 4544,
-            "instancesCurrent": 71,
-            "accumulatedSize": 4544,
-            "instancesAccumulated": 71,
-            "className": "_RecordType",
-            "libraryName": "dart.core"
-          },
-          {
-            "bytesCurrent": 4320,
-            "instancesCurrent": 90,
-            "accumulatedSize": 4320,
-            "instancesAccumulated": 90,
-            "className": "_Future",
-            "libraryName": "dart.async"
-          },
-          {
             "bytesCurrent": 4320,
             "instancesCurrent": 135,
             "accumulatedSize": 4320,
@@ -11757,7 +12013,7 @@
             "instancesCurrent": 135,
             "accumulatedSize": 4320,
             "instancesAccumulated": 135,
-            "className": "DirectiveUriWithUnitImpl",
+            "className": "UnlinkedPartOfNameDirective",
             "libraryName": ""
           },
           {
@@ -11773,30 +12029,14 @@
             "instancesCurrent": 135,
             "accumulatedSize": 4320,
             "instancesAccumulated": 135,
-            "className": "UnlinkedPartOfNameDirective",
+            "className": "DirectiveUriWithUnitImpl",
             "libraryName": ""
           },
           {
-            "bytesCurrent": 4240,
-            "instancesCurrent": 10,
-            "accumulatedSize": 4240,
-            "instancesAccumulated": 10,
-            "className": "_Uint64List",
-            "libraryName": "dart.typed_data"
-          },
-          {
-            "bytesCurrent": 4112,
-            "instancesCurrent": 25,
-            "accumulatedSize": 4112,
-            "instancesAccumulated": 25,
-            "className": "_SuspendState",
-            "libraryName": "dart.async"
-          },
-          {
-            "bytesCurrent": 4032,
-            "instancesCurrent": 126,
-            "accumulatedSize": 4032,
-            "instancesAccumulated": 126,
+            "bytesCurrent": 4160,
+            "instancesCurrent": 130,
+            "accumulatedSize": 4160,
+            "instancesAccumulated": 130,
             "className": "ResponseError",
             "libraryName": ""
           },
@@ -11810,18 +12050,26 @@
           },
           {
             "bytesCurrent": 3648,
-            "instancesCurrent": 57,
-            "accumulatedSize": 3648,
-            "instancesAccumulated": 57,
-            "className": "TypeAliasElementLinkedData",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 3648,
             "instancesCurrent": 38,
             "accumulatedSize": 3648,
             "instancesAccumulated": 38,
             "className": "AnnotationImpl",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 3648,
+            "instancesCurrent": 76,
+            "accumulatedSize": 3648,
+            "instancesAccumulated": 76,
+            "className": "_ArrayIterator",
+            "libraryName": "dart.core"
+          },
+          {
+            "bytesCurrent": 3648,
+            "instancesCurrent": 57,
+            "accumulatedSize": 3648,
+            "instancesAccumulated": 57,
+            "className": "TypeAliasElementLinkedData",
             "libraryName": ""
           },
           {
@@ -11841,11 +12089,27 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 3520,
+            "instancesCurrent": 110,
+            "accumulatedSize": 3520,
+            "instancesAccumulated": 110,
+            "className": "WhereIterator",
+            "libraryName": "dart._internal"
+          },
+          {
             "bytesCurrent": 3456,
             "instancesCurrent": 54,
             "accumulatedSize": 3456,
             "instancesAccumulated": 54,
             "className": "PrefixedIdentifierImpl",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 3232,
+            "instancesCurrent": 101,
+            "accumulatedSize": 3232,
+            "instancesAccumulated": 101,
+            "className": "_Entry",
             "libraryName": ""
           },
           {
@@ -11890,18 +12154,18 @@
           },
           {
             "bytesCurrent": 2960,
+            "instancesCurrent": 185,
+            "accumulatedSize": 2960,
+            "instancesAccumulated": 185,
+            "className": "Duration",
+            "libraryName": "dart.core"
+          },
+          {
+            "bytesCurrent": 2960,
             "instancesCurrent": 37,
             "accumulatedSize": 2960,
             "instancesAccumulated": 37,
             "className": "VariableDeclarationListImpl",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 2912,
-            "instancesCurrent": 91,
-            "accumulatedSize": 2912,
-            "instancesAccumulated": 91,
-            "className": "_Entry",
             "libraryName": ""
           },
           {
@@ -11911,6 +12175,14 @@
             "instancesAccumulated": 59,
             "className": "ExpressionStatementImpl",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 2592,
+            "instancesCurrent": 54,
+            "accumulatedSize": 2592,
+            "instancesAccumulated": 54,
+            "className": "_CompactIterable",
+            "libraryName": "dart.collection"
           },
           {
             "bytesCurrent": 2576,
@@ -11957,7 +12229,7 @@
             "instancesCurrent": 23,
             "accumulatedSize": 2208,
             "instancesAccumulated": 23,
-            "className": "IndexExpressionImpl",
+            "className": "AssignmentExpressionImpl",
             "libraryName": ""
           },
           {
@@ -11965,7 +12237,15 @@
             "instancesCurrent": 23,
             "accumulatedSize": 2208,
             "instancesAccumulated": 23,
-            "className": "AssignmentExpressionImpl",
+            "className": "IndexExpressionImpl",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 2208,
+            "instancesCurrent": 46,
+            "accumulatedSize": 2208,
+            "instancesAccumulated": 46,
+            "className": "Library",
             "libraryName": ""
           },
           {
@@ -11977,12 +12257,12 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 2112,
-            "instancesCurrent": 44,
-            "accumulatedSize": 2112,
-            "instancesAccumulated": 44,
-            "className": "ExperimentStatus",
-            "libraryName": ""
+            "bytesCurrent": 2160,
+            "instancesCurrent": 45,
+            "accumulatedSize": 2160,
+            "instancesAccumulated": 45,
+            "className": "_HashSetEntry",
+            "libraryName": "dart.collection"
           },
           {
             "bytesCurrent": 2112,
@@ -11993,20 +12273,20 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 1984,
-            "instancesCurrent": 31,
-            "accumulatedSize": 1984,
-            "instancesAccumulated": 31,
-            "className": "_FutureListener",
-            "libraryName": "dart.async"
+            "bytesCurrent": 2112,
+            "instancesCurrent": 44,
+            "accumulatedSize": 2112,
+            "instancesAccumulated": 44,
+            "className": "ExperimentStatus",
+            "libraryName": ""
           },
           {
-            "bytesCurrent": 1920,
-            "instancesCurrent": 40,
-            "accumulatedSize": 1920,
-            "instancesAccumulated": 40,
-            "className": "Library",
-            "libraryName": ""
+            "bytesCurrent": 2016,
+            "instancesCurrent": 14,
+            "accumulatedSize": 2016,
+            "instancesAccumulated": 14,
+            "className": "_CustomZone",
+            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 1920,
@@ -12029,8 +12309,32 @@
             "instancesCurrent": 38,
             "accumulatedSize": 1824,
             "instancesAccumulated": 38,
+            "className": "OperationPerformanceImpl",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1824,
+            "instancesCurrent": 38,
+            "accumulatedSize": 1824,
+            "instancesAccumulated": 38,
             "className": "ElementAnnotationImpl",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1824,
+            "instancesCurrent": 57,
+            "accumulatedSize": 1824,
+            "instancesAccumulated": 57,
+            "className": "_Utf8Encoder",
+            "libraryName": "dart.convert"
+          },
+          {
+            "bytesCurrent": 1824,
+            "instancesCurrent": 57,
+            "accumulatedSize": 1824,
+            "instancesAccumulated": 57,
+            "className": "CodeUnits",
+            "libraryName": "dart._internal"
           },
           {
             "bytesCurrent": 1776,
@@ -12049,20 +12353,20 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 1728,
-            "instancesCurrent": 36,
-            "accumulatedSize": 1728,
-            "instancesAccumulated": 36,
-            "className": "OperationPerformanceImpl",
-            "libraryName": ""
-          },
-          {
             "bytesCurrent": 1696,
             "instancesCurrent": 53,
             "accumulatedSize": 1696,
             "instancesAccumulated": 53,
             "className": "LocalScope",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1680,
+            "instancesCurrent": 21,
+            "accumulatedSize": 1680,
+            "instancesAccumulated": 21,
+            "className": "_ControllerSubscription",
+            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 1632,
@@ -12089,11 +12393,27 @@
             "libraryName": "_fe_analyzer_shared.messages.codes"
           },
           {
+            "bytesCurrent": 1568,
+            "instancesCurrent": 49,
+            "accumulatedSize": 1568,
+            "instancesAccumulated": 49,
+            "className": "LibraryChange",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1568,
+            "instancesCurrent": 49,
+            "accumulatedSize": 1568,
+            "instancesAccumulated": 49,
+            "className": "_SendPort",
+            "libraryName": "dart.isolate"
+          },
+          {
             "bytesCurrent": 1536,
-            "instancesCurrent": 32,
+            "instancesCurrent": 16,
             "accumulatedSize": 1536,
-            "instancesAccumulated": 32,
-            "className": "TypeArgumentListImpl",
+            "instancesAccumulated": 16,
+            "className": "SimpleFormalParameterImpl",
             "libraryName": ""
           },
           {
@@ -12117,7 +12437,31 @@
             "instancesCurrent": 32,
             "accumulatedSize": 1536,
             "instancesAccumulated": 32,
+            "className": "SummaryDataReader",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1536,
+            "instancesCurrent": 32,
+            "accumulatedSize": 1536,
+            "instancesAccumulated": 32,
+            "className": "_FbUint32List",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1536,
+            "instancesCurrent": 32,
+            "accumulatedSize": 1536,
+            "instancesAccumulated": 32,
             "className": "_ReferenceReader",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1536,
+            "instancesCurrent": 32,
+            "accumulatedSize": 1536,
+            "instancesAccumulated": 32,
+            "className": "TypeArgumentListImpl",
             "libraryName": ""
           },
           {
@@ -12126,22 +12470,6 @@
             "accumulatedSize": 1536,
             "instancesAccumulated": 48,
             "className": "NotAugmentedClassElementImpl",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1536,
-            "instancesCurrent": 16,
-            "accumulatedSize": 1536,
-            "instancesAccumulated": 16,
-            "className": "SimpleFormalParameterImpl",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1536,
-            "instancesCurrent": 32,
-            "accumulatedSize": 1536,
-            "instancesAccumulated": 32,
-            "className": "SummaryDataReader",
             "libraryName": ""
           },
           {
@@ -12159,14 +12487,6 @@
             "instancesAccumulated": 46,
             "className": "_Hierarchy",
             "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1440,
-            "instancesCurrent": 45,
-            "accumulatedSize": 1440,
-            "instancesAccumulated": 45,
-            "className": "_DelayedData",
-            "libraryName": "dart.async"
           },
           {
             "bytesCurrent": 1440,
@@ -12193,36 +12513,36 @@
             "libraryName": "dart.collection"
           },
           {
-            "bytesCurrent": 1376,
-            "instancesCurrent": 43,
-            "accumulatedSize": 1376,
-            "instancesAccumulated": 43,
-            "className": "LibraryChange",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1296,
-            "instancesCurrent": 9,
-            "accumulatedSize": 1296,
-            "instancesAccumulated": 9,
-            "className": "_CustomZone",
+            "bytesCurrent": 1360,
+            "instancesCurrent": 17,
+            "accumulatedSize": 1360,
+            "instancesAccumulated": 17,
+            "className": "_SyncStreamController",
             "libraryName": "dart.async"
           },
           {
-            "bytesCurrent": 1280,
-            "instancesCurrent": 16,
-            "accumulatedSize": 1280,
-            "instancesAccumulated": 16,
-            "className": "_ControllerSubscription",
-            "libraryName": "dart.async"
+            "bytesCurrent": 1344,
+            "instancesCurrent": 42,
+            "accumulatedSize": 1344,
+            "instancesAccumulated": 42,
+            "className": "FileSystemCreateEvent",
+            "libraryName": "dart.io"
           },
           {
-            "bytesCurrent": 1280,
-            "instancesCurrent": 40,
-            "accumulatedSize": 1280,
-            "instancesAccumulated": 40,
+            "bytesCurrent": 1344,
+            "instancesCurrent": 42,
+            "accumulatedSize": 1344,
+            "instancesAccumulated": 42,
             "className": "Stopwatch",
             "libraryName": "dart.core"
+          },
+          {
+            "bytesCurrent": 1344,
+            "instancesCurrent": 28,
+            "accumulatedSize": 1344,
+            "instancesAccumulated": 28,
+            "className": "FileSystemModifyEvent",
+            "libraryName": "dart.io"
           },
           {
             "bytesCurrent": 1248,
@@ -12250,18 +12570,18 @@
           },
           {
             "bytesCurrent": 1216,
-            "instancesCurrent": 19,
-            "accumulatedSize": 1216,
-            "instancesAccumulated": 19,
-            "className": "BodyInferenceContext",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1216,
             "instancesCurrent": 38,
             "accumulatedSize": 1216,
             "instancesAccumulated": 38,
             "className": "PrefixScopeLookupResult",
+            "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1216,
+            "instancesCurrent": 19,
+            "accumulatedSize": 1216,
+            "instancesAccumulated": 19,
+            "className": "BodyInferenceContext",
             "libraryName": ""
           },
           {
@@ -12274,14 +12594,6 @@
           },
           {
             "bytesCurrent": 1152,
-            "instancesCurrent": 9,
-            "accumulatedSize": 1152,
-            "instancesAccumulated": 9,
-            "className": "PrefixElementImpl",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1152,
             "instancesCurrent": 18,
             "accumulatedSize": 1152,
             "instancesAccumulated": 18,
@@ -12289,11 +12601,11 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 1120,
-            "instancesCurrent": 14,
-            "accumulatedSize": 1120,
-            "instancesAccumulated": 14,
-            "className": "DocDirectiveType",
+            "bytesCurrent": 1152,
+            "instancesCurrent": 9,
+            "accumulatedSize": 1152,
+            "instancesAccumulated": 9,
+            "className": "PrefixElementImpl",
             "libraryName": ""
           },
           {
@@ -12305,19 +12617,19 @@
             "libraryName": "_fe_analyzer_shared.scanner.keywords"
           },
           {
+            "bytesCurrent": 1120,
+            "instancesCurrent": 14,
+            "accumulatedSize": 1120,
+            "instancesAccumulated": 14,
+            "className": "DocDirectiveType",
+            "libraryName": ""
+          },
+          {
             "bytesCurrent": 1104,
             "instancesCurrent": 23,
             "accumulatedSize": 1104,
             "instancesAccumulated": 23,
             "className": "InterpolationStringImpl",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1088,
-            "instancesCurrent": 68,
-            "accumulatedSize": 1088,
-            "instancesAccumulated": 68,
-            "className": "HighlightRegionType",
             "libraryName": ""
           },
           {
@@ -12329,12 +12641,28 @@
             "libraryName": ""
           },
           {
+            "bytesCurrent": 1088,
+            "instancesCurrent": 68,
+            "accumulatedSize": 1088,
+            "instancesAccumulated": 68,
+            "className": "HighlightRegionType",
+            "libraryName": ""
+          },
+          {
             "bytesCurrent": 1056,
             "instancesCurrent": 6,
             "accumulatedSize": 1056,
             "instancesAccumulated": 6,
             "className": "ParameterElementImpl_ofImplicitSetter",
             "libraryName": ""
+          },
+          {
+            "bytesCurrent": 1056,
+            "instancesCurrent": 22,
+            "accumulatedSize": 1056,
+            "instancesAccumulated": 22,
+            "className": "LocalVarDescriptors",
+            "libraryName": null
           },
           {
             "bytesCurrent": 1056,
@@ -12353,26 +12681,10 @@
             "libraryName": ""
           },
           {
-            "bytesCurrent": 1056,
-            "instancesCurrent": 22,
-            "accumulatedSize": 1056,
-            "instancesAccumulated": 22,
-            "className": "LocalVarDescriptors",
-            "libraryName": null
-          },
-          {
-            "bytesCurrent": 1024,
-            "instancesCurrent": 4,
-            "accumulatedSize": 1024,
-            "instancesAccumulated": 4,
-            "className": "EnumElementImpl",
-            "libraryName": ""
-          },
-          {
-            "bytesCurrent": 1024,
-            "instancesCurrent": 64,
-            "accumulatedSize": 1024,
-            "instancesAccumulated": 64,
+            "bytesCurrent": 1040,
+            "instancesCurrent": 65,
+            "accumulatedSize": 1040,
+            "instancesAccumulated": 65,
             "className": "Method",
             "libraryName": ""
           },
@@ -12383,6 +12695,14 @@
             "instancesAccumulated": 32,
             "className": "_Float64List",
             "libraryName": "dart.typed_data"
+          },
+          {
+            "bytesCurrent": 1024,
+            "instancesCurrent": 4,
+            "accumulatedSize": 1024,
+            "instancesAccumulated": 4,
+            "className": "EnumElementImpl",
+            "libraryName": ""
           }
         ]
       }
