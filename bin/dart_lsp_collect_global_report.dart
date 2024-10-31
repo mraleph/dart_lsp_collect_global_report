@@ -72,12 +72,37 @@ Future<Map<int, int>> getPortToPidMapping() async {
   return result;
 }
 
+void printProcesses<V>(Map<int, V> processes) {
+  for (var entry in processes.entries) {
+    print(' | ${entry.key} ${entry.value}');
+  }
+  print('');
+}
+
+extension<K, V> on Map<K, V> {
+  Map<V, List<K>> get inverted {
+    final result = <V, List<K>>{};
+    for (var entry in this.entries) {
+      result.putIfAbsent(entry.value, () => []).add(entry.key);
+    }
+    return result;
+  }
+}
+
 Future<Map<int, Uri>> getVmServiceUris(Map<int, String> lspProcesses) async {
   final result = <int, Uri>{};
   print('Finding all open ports');
   final portToPid = await getPortToPidMapping();
+  print('-> Ports open by LSP processes:');
+  printProcesses({
+    for (var entry in portToPid.inverted.entries)
+      if (lspProcesses.containsKey(entry.key)) entry.key: entry.value,
+  });
+
   print('Checking for development-service processes');
   final ddsProcesses = await getDartDDSProcesses();
+  printProcesses(ddsProcesses);
+
   for (var dds in ddsProcesses.entries) {
     final vmServiceUriString = dds.value
         .split(' ')
@@ -164,18 +189,40 @@ Future<Map<String, dynamic>> collectDataFrom(Uri serviceUri) async {
 void main(List<String> arguments) async {
   print('Finding Dart LSP processes');
   final lspProcesses = await getDartLspProcesses();
-  var uris = await getVmServiceUris(lspProcesses);
-  for (var lspWithoutDDS
-      in Set.of(lspProcesses.keys).difference(Set.of(uris.keys))) {
-    print('Sending SIGQUIT to $lspWithoutDDS in attempt to start vm-service');
-    try {
-      execute('kill', ['-QUIT', '$lspWithoutDDS']);
-      print('... OK');
-    } catch (_) {
-      print('... FAILED');
-    }
+  if (lspProcesses.isEmpty) {
+    print('No LSP processes found');
+    exit(0);
   }
-  uris = await getVmServiceUris(lspProcesses);
+  printProcesses(lspProcesses);
+
+  late Map<int, Uri> uris;
+  late Set<int> lspProcessesWithoutVmServiceUri;
+  for (var attempt = 0; attempt < 3; attempt++) {
+    print('Trying to fetch vm-service URIs');
+    uris = await getVmServiceUris(lspProcesses);
+    printProcesses(uris);
+
+    lspProcessesWithoutVmServiceUri =
+        Set.of(lspProcesses.keys).difference(Set.of(uris.keys));
+    if (lspProcessesWithoutVmServiceUri.isEmpty) {
+      break;
+    }
+    print(
+        '-> LSP processes without service URI: $lspProcessesWithoutVmServiceUri');
+    for (var lspWithoutDDS in lspProcessesWithoutVmServiceUri) {
+      print(
+          ' | Sending SIGQUIT to $lspWithoutDDS in attempt to start vm-service');
+      print(' | WARNING: this will damage connection between VS Code and LSP server and you will later need to restart analyzer');
+      try {
+        execute('kill', ['-QUIT', '$lspWithoutDDS']);
+        print(' | - OK');
+      } catch (_) {
+        print(' | - FAILED');
+      }
+    }
+    print('Waiting 5s for DDS to start.');
+    await Future.delayed(const Duration(seconds: 5));
+  }
 
   final data = <String, dynamic>{};
   for (var entry in uris.entries) {
