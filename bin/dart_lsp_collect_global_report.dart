@@ -5,6 +5,7 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:args/args.dart';
 import 'package:collection/collection.dart';
 import 'package:vm_service/vm_service_io.dart' as vm_service;
 
@@ -41,7 +42,7 @@ Future<Map<int, String>> getProcesses() async {
 
 Future<Map<int, String>> getDartProcesses(String kind) async {
   final allProcesses = await getProcesses();
-  final filter = 'dart $kind';
+  final filter = RegExp('dart.*$kind');
   return {
     for (var e in allProcesses.entries)
       if (e.value.contains(filter)) e.key: e.value,
@@ -186,7 +187,23 @@ Future<Map<String, dynamic>> collectDataFrom(Uri serviceUri) async {
   }
 }
 
+final argsParser = ArgParser()
+  ..addFlag(
+    'force-start-vm-service',
+    abbr: 'f',
+    negatable: false,
+    help: 'Force vm-service to start by sending SIGQUIT to an LSP process. '
+        'Does not work with IntelliJ LSP processes for some reason.',
+  )
+  ..addFlag('help', abbr: 'h');
+
 void main(List<String> arguments) async {
+  final flags = argsParser.parse(arguments);
+  if (flags['help']) {
+    print('Usage: dart_lsp_collect_global_report ${argsParser.usage}');
+    exit(0);
+  }
+
   print('Finding Dart LSP processes');
   final lspProcesses = await getDartLspProcesses();
   if (lspProcesses.isEmpty) {
@@ -209,20 +226,27 @@ void main(List<String> arguments) async {
     }
     print(
         '-> LSP processes without service URI: $lspProcessesWithoutVmServiceUri');
-    for (var lspWithoutDDS in lspProcessesWithoutVmServiceUri) {
-      print(
-          ' | Sending SIGQUIT to $lspWithoutDDS in attempt to start vm-service');
-      print(' | WARNING: this will damage connection between VS Code and LSP server and you will later need to restart analyzer');
-      try {
-        execute('kill', ['-QUIT', '$lspWithoutDDS']);
-        print(' | - OK');
-      } catch (_) {
-        print(' | - FAILED');
+    if (flags['force-start-vm-service']) {
+      for (var lspWithoutDDS in lspProcessesWithoutVmServiceUri) {
+        print(
+            ' | Sending SIGQUIT to $lspWithoutDDS in attempt to start vm-service');
+        print(
+            ' | WARNING: this will damage connection between VS Code and LSP server and you will later need to restart analyzer');
+        try {
+          execute('kill', ['-QUIT', '$lspWithoutDDS']);
+          print(' | - OK');
+        } catch (_) {
+          print(' | - FAILED');
+        }
       }
+      final duration = Duration(seconds: 5 * (attempt + 1));
+      print('Waiting ${duration.inSeconds}s for DDS to start.');
+      await Future.delayed(duration);
+    } else {
+      print('  Will not be able to fetch profile from these processes.'
+          ' Try with --force-start-vm-service.');
+      break;
     }
-    final duration = Duration(seconds: 5 * (attempt + 1));
-    print('Waiting ${duration.inSeconds}s for DDS to start.');
-    await Future.delayed(duration);
   }
 
   final data = <String, dynamic>{};
@@ -236,7 +260,11 @@ void main(List<String> arguments) async {
       print('... FAILED');
     }
   }
-  File('lsp-report.json')
-      .writeAsStringSync(JsonEncoder.withIndent('  ').convert(data));
-  print('SUCCESS: written lsp-report.json');
+  if (data.isNotEmpty) {
+    File('lsp-report.json')
+        .writeAsStringSync(JsonEncoder.withIndent('  ').convert(data));
+    print('SUCCESS: written lsp-report.json');
+  } else {
+    print('FAILED: empty report');
+  }
 }
